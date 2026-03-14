@@ -13,6 +13,9 @@ class SimulatorConfig:
     batch_size: int
     random_seed: int
     hospital_id: str
+    template_csv_path: str
+    output_csv_path: str
+    sink: str
 
 
 
@@ -33,4 +36,7 @@ def load_config() -> SimulatorConfig:
         batch_size=_get_int_env("SIMULATOR_BATCH_SIZE", 5),
         random_seed=_get_int_env("SIMULATOR_RANDOM_SEED", 42),
         hospital_id=os.getenv("HOSPITAL_ID", "HOSP_001"),
+        template_csv_path=os.getenv("EHR_TEMPLATE_CSV", "Data/EHR.csv"),
+        output_csv_path=os.getenv("SYNTHETIC_OUTPUT_CSV", "Data/synthetic_ehr.csv"),
+        sink=os.getenv("SIMULATOR_SINK", "both"),
     )

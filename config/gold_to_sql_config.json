@@ -1,0 +1,9 @@
+{
+  "doctor_mart_path": "Data/gold/marts/doctor_patient_risk_mart.parquet",
+  "admin_mart_path": "Data/gold/marts/admin_hospital_kpi_mart.parquet",
+  "department_mart_path": "Data/gold/marts/admin_department_kpi_mart.parquet",
+  "schema_name": "analytics",
+  "doctor_table": "doctor_patient_risk_mart",
+  "admin_table": "admin_hospital_kpi_mart",
+  "department_table": "admin_department_kpi_mart"
+}

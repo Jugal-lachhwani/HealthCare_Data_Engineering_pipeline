@@ -1,0 +1,27 @@
+{
+  "rows": 4035,
+  "target_positive_rate_pct": 8.3519,
+  "metrics": {
+    "roc_auc": 0.8920532472771279,
+    "pr_auc": 0.6781281047565761,
+    "accuracy": 0.9566294919454771,
+    "precision": 0.82,
+    "recall": 0.6119402985074627,
+    "f1": 0.7008547008547008,
+    "threshold": 0.648065271777111,
+    "confusion_matrix": {
+      "tn": 731,
+      "fp": 9,
+      "fn": 26,
+      "tp": 41
+    },
+    "threshold_selection": "best_f1_on_validation",
+    "validation_f1": 0.6923076923076924,
+    "selected_model": "random_forest"
+  },
+  "artifacts": {
+    "model_path": "models/readmission_30d_model.joblib",
+    "predictions_csv": "Data/final/readmission_predictions.csv",
+    "feature_importance_csv": "Data/final/readmission_feature_importance.csv"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "silver_root": "Data/silver/ehr_visits",
+  "gold_root": "Data/gold",
+  "doctor_mart_path": "Data/gold/marts/doctor_patient_risk_mart.parquet",
+  "admin_mart_path": "Data/gold/marts/admin_hospital_kpi_mart.parquet",
+  "department_mart_path": "Data/gold/marts/admin_department_kpi_mart.parquet",
+  "state_path": "Data/gold/_state/silver_to_gold_state.json"
+}

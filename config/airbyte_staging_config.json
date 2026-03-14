@@ -1,0 +1,8 @@
+{
+  "source_csv": "Data/EHR_FInal.csv",
+  "stream_name": "ehr_visits",
+  "destination_root": "Data/bronze/airbyte_raw",
+  "state_path": "Data/bronze/_airbyte_state/ehr_visits_state.json",
+  "file_prefix": "ehr_visits_raw",
+  "max_rows_per_file": 5000
+}

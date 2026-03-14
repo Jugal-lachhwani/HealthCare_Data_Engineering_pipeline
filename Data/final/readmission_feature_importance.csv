@@ -1,0 +1,3372 @@
+feature,importance
+num__temperature,0.059627971350487655
+num__potassium,0.053690068305951265
+num__hemoglobin,0.05155066559592639
+num__bp_systolic,0.04431980863461837
+num__respirations,0.041832350905049165
+num__glucose,0.036745888658620454
+num__care_plan_costs,0.03625249428520679
+num__creatinine,0.033624408888955695
+num__calcium,0.03070515152226703
+num__LACE_Score,0.030694966845491528
+num__chronic_conditions,0.030655861079075093
+num__pulse,0.030332990434906948
+num__ed_visits,0.02896105787666369
+num__bp_diastolic,0.02849265772185596
+num__los,0.027485364431451602
+num__cost_of_initial_stay,0.027096754718291628
+num__bmi,0.026642287815593628
+cat__care_plan_following_discharge_No documented plan,0.02570302417619671
+num__sodium,0.025647353091933812
+num__wbc,0.024064679184913163
+num__ip_visits,0.02374340323943209
+cat__care_plan_following_discharge_Standard follow-up in 7 days,0.02061235696481604
+cat__ethnic_group_c_unknown,0.018832146330582777
+cat__Condition_unspecified,0.01850043218183805
+cat__insurance_provider_unknown,0.016046741125388335
+num__tobacco_user,0.015101832791257916
+num__patientunitstayid,0.011548440436082486
+num__diabetes,0.010465791911713514
+num__depression,0.010420968443572175
+num__hospitalid,0.00873992416789119
+num__age,0.008553507977730307
+num__wardid,0.008529300827797797
+cat__ethnic_group_c_White,0.006091073587639589
+cat__unittype_Med-Surg ICU,0.0058795051215890775
+cat__insurance_provider_Commercial,0.005070414722736574
+cat__ethnicity_Caucasian,0.0049439890021916325
+cat__ethnic_group_c_Other,0.00452483411693461
+cat__insurance_provider_Medicaid,0.004019519074037798
+cat__insurance_provider_Private,0.0039991235844282005
+num__dementia,0.0038886991351734426
+num__obesity,0.0035132833282738173
+cat__insurance_provider_Medicare,0.003479027142409939
+num__anxiety,0.003000437895100542
+cat__Condition_General Medical,0.00294223417423741
+cat__gender_Female,0.002649423561156857
+cat__gender_Unknown,0.002561909927190202
+cat__Condition_Respiratory Disease,0.0023631208661956432
+cat__ethnic_group_c_Hispanic,0.0023152042743882196
+cat__ethnic_group_c_African American,0.00200839427511192
+cat__Condition_Cardiovascular Disease,0.001999935056627768
+cat__care_plan_following_discharge_Medication reconciliation and PCP follow-up,0.001851727780988878
+cat__gender_Male,0.0018135084528994566
+cat__ethnic_group_c_Asian,0.0017422492528072625
+num__mooddisorder,0.0016696156699057736
+cat__unittype_Cardiac ICU,0.0016384018292394025
+cat__insurance_provider_Medicare Advantage,0.0016340017930923268
+cat__Condition_Multi-morbid/Elderly,0.001588113560880121
+cat__ethnic_group_c_Black or African American,0.0014961108192525542
+num__drugabuse,0.0012002444935327007
+cat__unittype_SICU,0.0011925653286245983
+cat__ethnicity_Native American,0.0011492384861615226
+cat__Condition_Neurological Disorder,0.0010707665375719532
+cat__ethnicity_African American,0.001059979095666151
+cat__ethnicity_Other/Unknown,0.0010241554355676042
+cat__care_plan_following_discharge_Home health + chronic disease management,0.0010002906236838505
+cat__Condition_Sepsis/Infection,0.0009813603612111668
+cat__Condition_Renal Disease,0.0009776912142132586
+cat__unittype_CCU-CTICU,0.000964377749288835
+cat__unittype_Neuro ICU,0.000959819299903357
+cat__unittype_CTICU,0.00095832800955502
+cat__unittype_MICU,0.0009430825099900916
+cat__insurance_provider_Self-pay,0.0009276811854026422
+cat__Condition_Substance Abuse/Overdose,0.0009185227352055067
+cat__unittype_CSICU,0.0009023160146355431
+cat__care_plan_following_discharge_Home Health,0.0008068627679682605
+cat__ethnicity_Asian,0.0008066165747372509
+cat__ethnicity_Hispanic,0.0008052314674189185
+cat__care_plan_following_discharge_Cardiac Rehab,0.0007992062175491166
+cat__care_plan_following_discharge_Follow-up Cardiology; Cardiac Rehab; Medication Management,0.0006935348448447523
+cat__Condition_Diabetes/Endocrine,0.0006567638245691951
+cat__insurance_provider_Other,0.0006467376635140773
+cat__Condition_Trauma/Surgical,0.0006419777859881772
+cat__care_plan_following_discharge_PCP Follow-up,0.0006256807120120106
+cat__insurance_provider_Self-Pay,0.0006001950246859227
+cat__care_plan_following_discharge_Medication Management,0.000586885756613428
+cat__care_plan_following_discharge_Medication Review,0.0005604948735218257
+cat__Condition_Myasthenia gravis,0.0005228445754174617
+cat__care_plan_following_discharge_Follow-up Cardiology,0.0005101412935537132
+cat__care_plan_following_discharge_Lifestyle Counseling,0.0005055033316306184
+cat__ethnic_group_c_American Indian or Alaska Native,0.000485768053450618
+cat__ethnicity_unknown,0.0004646437975401258
+cat__care_plan_following_discharge_Medication Review; Lifestyle Counseling; PCP Follow-up,0.00043840318412564813
+cat__care_plan_following_discharge_Speech Therapy; Occupational Therapy,0.00041337376656887427
+cat__Condition_Cancer/Neoplasm,0.00040062211322766265
+cat__care_plan_following_discharge_Home Health; Follow-up Cardiology,0.0003584882197368584
+cat__Condition_Gastrointestinal/Surgical,0.00035707710851819635
+cat__care_plan_following_discharge_Lifestyle Counseling; PCP Follow-up,0.00035216016688993423
+cat__care_plan_following_discharge_Medication Review; Lifestyle Counseling,0.0003483254799880345
+"cat__Condition_Overdose, other toxin, poison or drug",0.0003444150338706725
+cat__care_plan_following_discharge_Follow-up Cardiology; Home Health; Medication Management,0.0003394221570420191
+cat__care_plan_following_discharge_Medication Management; Cardiac Rehab; Home Health,0.00033612264002953675
+cat__care_plan_following_discharge_Home O2 Therapy,0.000331483155972719
+"cat__Condition_Graft, femoral-popliteal bypass",0.0003301546105579779
+cat__uniquepid_004-12925,0.0003157636879812628
+cat__uniquepid_007-11459,0.00031464098924373595
+cat__care_plan_following_discharge_Home O2 Therapy; Pulmonary Rehab; Smoking Cessation,0.0002967876446307061
+cat__care_plan_following_discharge_Lifestyle Counseling; Medication Review,0.0002907621388789642
+"cat__Condition_Complications of prev. peripheral vasc. surgery,surgery for (i.e.ligation of bleeder, exploration and evacuation of hematoma, debridement, pseudoaneurysms, clots, fistula, etc.)",0.0002866309849923485
+cat__care_plan_following_discharge_IV Antibiotics Completion; Home Health,0.00028583946513212506
+cat__care_plan_following_discharge_Follow-up Pulmonology,0.00028132128314839884
+cat__care_plan_following_discharge_Home Health; Medication Management,0.00027937967337494257
+cat__care_plan_following_discharge_Pulmonary Rehab,0.0002655309957813184
+cat__care_plan_following_discharge_Medication Management; Home Health; Cardiac Rehab,0.0002556086869771192
+cat__Condition_GI vascular insufficiency,0.00025417635219196
+cat__care_plan_following_discharge_Medication Review; PCP Follow-up,0.000250297770676677
+cat__care_plan_following_discharge_Medication Management; Home Health,0.00024555332636131647
+cat__care_plan_following_discharge_Home Health; Cardiac Rehab,0.00023286051947558222
+cat__care_plan_following_discharge_Medication Management; Cardiac Rehab,0.00023218411887416406
+"cat__Condition_Rhythm disturbance (atrial, supraventricular)",0.0002240136715871071
+cat__care_plan_following_discharge_Wound Care,0.00022255465110945544
+cat__care_plan_following_discharge_Smoking Cessation,0.00021330053771850994
+cat__uniquepid_009-11247,0.0002118273241958574
+cat__care_plan_following_discharge_Medication Review; PCP Follow-up; Lifestyle Counseling,0.00021098683542766151
+cat__Condition_Embolectomy (without general anesthesia),0.00019736740588476094
+cat__uniquepid_007-10207,0.00019715158394951554
+"cat__Condition_Hypovolemia (including dehydration, Do not include shock states)",0.0001914549921869434
+"cat__Condition_CVA, cerebrovascular accident/stroke",0.00019137224096073152
+cat__care_plan_following_discharge_Medication Management; Follow-up Cardiology,0.00019108533312159044
+cat__uniquepid_004-12287,0.0001908280191002488
+cat__care_plan_following_discharge_Dietary Restriction; Fluid Management,0.00018997040316426675
+cat__uniquepid_002-15638,0.00018685493138127812
+"cat__Condition_Obstruction-airway (i.e., acute epiglottitis, post-extubation edema, foreign body, etc)",0.00018337169383187687
+cat__care_plan_following_discharge_IV Antibiotics Completion,0.0001817507358427399
+cat__care_plan_following_discharge_PCP Follow-up; Lifestyle Counseling; Medication Review,0.000177373070737596
+cat__care_plan_following_discharge_Follow-up Infectious Disease,0.0001761340660962045
+cat__care_plan_following_discharge_PCP Follow-up; Medication Review,0.00017358874966231548
+cat__Condition_Weaning from mechanical ventilation (transfer from other unit or hospital only),0.00017154407779695668
+cat__care_plan_following_discharge_Physical Therapy,0.00016897703306556158
+"cat__Condition_Pneumonia, bacterial",0.0001635423798475676
+cat__care_plan_following_discharge_Cardiac Rehab; Home Health,0.0001631632066551414
+cat__Condition_Chest/multiple trauma,0.00015996223327193113
+cat__uniquepid_004-18183,0.0001570757659437877
+cat__uniquepid_002-10300,0.00015622443979126206
+"cat__Condition_Aneurysm, dissecting aortic",0.00015478929263656365
+"cat__Condition_Cancer-colon/rectal, surgery for (including abdominoperineal resections)",0.00015306440875361763
+cat__Condition_Drug withdrawal,0.0001518386847318348
+cat__Condition_Cellulitis and localized soft tissue infections,0.0001480139143795551
+"cat__Condition_Sepsis, other",0.0001441291522125414
+"cat__Condition_Bleeding-upper GI, surgery for",0.00014384945544837328
+cat__care_plan_following_discharge_PCP Follow-up; Medication Review; Lifestyle Counseling,0.00014275081419680958
+cat__care_plan_following_discharge_Cardiac Rehab; Medication Management,0.00014030538157490448
+cat__care_plan_following_discharge_Medication-Assisted Treatment,0.00013812054016395264
+cat__care_plan_following_discharge_Follow-up Cardiology; Home Health,0.00013807998585052143
+cat__Condition_Cardiac arrest (with or without respiratory arrest; for respiratory arrest see Respiratory System),0.00013088240782675527
+cat__care_plan_following_discharge_Psychiatric Follow-up; Support Group; Medication-Assisted Treatment,0.00013011619073414468
+cat__uniquepid_010-10084,0.0001289417344947054
+cat__care_plan_following_discharge_Follow-up Pulmonology; Smoking Cessation,0.00012878983078127649
+cat__care_plan_following_discharge_Pulmonary Rehab; Home O2 Therapy,0.0001280299893085899
+"cat__Condition_CABG alone, coronary artery bypass grafting",0.00012777173249059053
+"cat__Condition_Fistula/abscess, surgery for (not inflammatory bowel disease)",0.00012618696366945467
+cat__care_plan_following_discharge_Occupational Therapy,0.00012502404861974587
+cat__uniquepid_007-10493,0.00012174491808159414
+cat__care_plan_following_discharge_Cardiac Rehab; Home Health; Follow-up Cardiology,0.00012128220867783185
+cat__uniquepid_003-15846,0.00011962386292043674
+cat__Condition_Pelvis/hip trauma,0.00011871432968156888
+cat__care_plan_following_discharge_Medication Management; Follow-up Cardiology; Home Health,0.00011805042453913445
+cat__care_plan_following_discharge_Psychiatric Follow-up,0.00011717743186181273
+cat__Condition_Diabetic ketoacidosis,0.00011700030146123733
+cat__care_plan_following_discharge_Follow-up Pulmonology; Smoking Cessation; Pulmonary Rehab,0.00011461544189693828
+cat__Condition_Thoracotomy for bronchopleural fistula,0.00011253555627762381
+cat__uniquepid_003-49255,0.00011210652090035959
+"cat__Condition_Renal failure, acute",0.00010850420410444973
+"cat__Condition_Spinal cord surgery, other",0.0001070140517117545
+"cat__Condition_Bleeding, lower GI",0.00010692099098201528
+cat__Condition_Chest/spinal trauma,0.00010439005641106684
+cat__care_plan_following_discharge_Cardiac Rehab; Follow-up Cardiology; Medication Management,0.00010201832272800056
+cat__care_plan_following_discharge_Lifestyle Counseling; Medication Review; PCP Follow-up,0.00010073164244181952
+"cat__Condition_Effusions, pleural",0.00010002780776479053
+cat__care_plan_following_discharge_Cardiac Rehab; Medication Management; Follow-up Cardiology,9.9809219243138e-05
+cat__care_plan_following_discharge_Follow-up Cardiology; Medication Management,9.919235436188247e-05
+cat__Condition_Coagulopathy,9.766763953051256e-05
+cat__Condition_Anaphylaxis,9.633009607572735e-05
+"cat__Condition_Extremity only trauma, surgery for",9.631917103042106e-05
+"cat__Condition_Hemorrhage/hemoptysis, pulmonary",9.622214241583485e-05
+cat__care_plan_following_discharge_Home O2 Therapy; Follow-up Pulmonology,9.562561737091523e-05
+cat__Condition_Cesarean section,9.347504233765287e-05
+cat__care_plan_following_discharge_Follow-up Cardiology; Cardiac Rehab; Home Health,9.214605512121069e-05
+cat__uniquepid_008-10823,9.207240339238457e-05
+cat__Condition_Spinal/face trauma,9.055218348670323e-05
+cat__uniquepid_003-16423,9.019356808144852e-05
+cat__uniquepid_007-11567,8.963752004690045e-05
+cat__care_plan_following_discharge_Speech Therapy; Physical Therapy,8.764558388192892e-05
+"cat__Condition_Encephalopathy, hepatic",8.684079570853423e-05
+cat__care_plan_following_discharge_PCP Follow-up; Lifestyle Counseling,8.554626896373609e-05
+cat__Condition_GI obstruction,8.515123213266944e-05
+"cat__Condition_ARDS-adult respiratory distress syndrome, non-cardiogenic pulmonary edema",8.496702879071115e-05
+cat__care_plan_following_discharge_Follow-up Neurology,8.465442022952989e-05
+cat__care_plan_following_discharge_Dialysis Schedule; Fluid Management; Nephrology Follow-up,8.34959123737814e-05
+"cat__Condition_Graft, all other bypass (except renal)",8.114284246324541e-05
+cat__uniquepid_007-10474,8.071737539069133e-05
+cat__care_plan_following_discharge_Smoking Cessation; Home O2 Therapy; Follow-up Pulmonology,8.059880459860019e-05
+cat__care_plan_following_discharge_Cardiac Rehab; Follow-up Cardiology,7.929613539114012e-05
+"cat__Condition_Hypertension, uncontrolled (for cerebrovascular accident-see Neurological System)",7.835073075373054e-05
+cat__Condition_Emphysema/bronchitis,7.834183420787623e-05
+cat__Condition_Pancreatitis,7.597846807557987e-05
+"cat__Condition_Aneurysm, thoracic aortic; with dissection",7.519847524549441e-05
+cat__uniquepid_003-13187,7.423407710564909e-05
+cat__uniquepid_007-10152,7.321949664970558e-05
+"cat__Condition_Coma/change in level of consciousness (for hepatic see GI, for diabetic see Endocrine, if related to cardiac arrest, see CV)",7.272201321665394e-05
+cat__care_plan_following_discharge_Home Glucose Monitoring; Endocrinology Follow-up; Diabetes Education,7.197588398757846e-05
+cat__Condition_Renal bleeding,7.188233434260471e-05
+"cat__Condition_Esophageal surgery, other",7.117853164775281e-05
+cat__uniquepid_002-11812,7.09097874120214e-05
+cat__uniquepid_002-14002,7.0804186179396e-05
+cat__care_plan_following_discharge_Home Health; IV Antibiotics Completion; Follow-up Infectious Disease,7.022098662077502e-05
+cat__care_plan_following_discharge_Cardiac Rehab; Medication Management; Home Health,6.964612171664444e-05
+cat__care_plan_following_discharge_Follow-up Infectious Disease; Home Health,6.798463362851624e-05
+cat__uniquepid_002-10357,6.726610319333424e-05
+cat__care_plan_following_discharge_Home Health; Follow-up Cardiology; Medication Management,6.706569965523473e-05
+cat__care_plan_following_discharge_Home O2 Therapy; Smoking Cessation,6.666490365446103e-05
+cat__care_plan_following_discharge_Dietary Restriction; Fluid Management; Nephrology Follow-up,6.642968857798308e-05
+cat__uniquepid_002-19218,6.627597386111676e-05
+cat__care_plan_following_discharge_Addiction Counseling; Support Group,6.58816578327127e-05
+cat__care_plan_following_discharge_Occupational Therapy; Physical Therapy; Speech Therapy,6.493223813035708e-05
+cat__care_plan_following_discharge_Lifestyle Counseling; PCP Follow-up; Medication Review,6.372946144577818e-05
+"cat__Condition_Neoplasm, neurologic",6.356894103681779e-05
+cat__care_plan_following_discharge_Home Health; Cardiac Rehab; Medication Management,6.337777502088465e-05
+cat__care_plan_following_discharge_Cardiac Rehab; Home Health; Medication Management,6.238965002811485e-05
+cat__uniquepid_009-10167,6.157848888645593e-05
+cat__care_plan_following_discharge_Wound Care; Home Health; IV Antibiotics Completion,6.154448907818295e-05
+cat__care_plan_following_discharge_Physical Therapy; Wound Care,6.0551659312348284e-05
+"cat__Condition_Monitoring, hemodynamic (pre-operative evaluation)",6.03014136022389e-05
+"cat__Condition_GI medical, other",6.0300141104630884e-05
+"cat__Condition_Genitourinary medical, other",5.971148602929708e-05
+cat__uniquepid_002-1051,5.89490800358263e-05
+cat__uniquepid_004-10805,5.875982317762439e-05
+cat__Condition_Rhythm disturbance (conduction defect),5.862983089295854e-05
+cat__uniquepid_008-10332,5.8152954855133555e-05
+cat__Condition_Alcohol withdrawal,5.772045438048254e-05
+cat__care_plan_following_discharge_Follow-up Cardiology; Cardiac Rehab,5.7705990324476854e-05
+cat__uniquepid_007-10019,5.6087448036180815e-05
+cat__Condition_Head only trauma,5.584942142524758e-05
+cat__care_plan_following_discharge_Speech Therapy,5.5243428738531866e-05
+cat__uniquepid_002-11766,5.504336872574727e-05
+cat__ethnic_group_c_Hispanic or Latino,5.4907719692696566e-05
+"cat__Condition_Efffusion, pericardial",5.4897633779139284e-05
+"cat__Condition_Shock, cardiogenic",5.446670604165891e-05
+cat__uniquepid_002-1018,5.386936664668975e-05
+"cat__Condition_Vascular medical, other",5.377348713294197e-05
+"cat__Condition_Thrombosis, vascular (deep vein)",5.355668413265885e-05
+cat__Condition_Thrombectomy (with general anesthesia),5.350690164064016e-05
+cat__Condition_Tricuspid valve surgery,5.272233416463642e-05
+"cat__Condition_Respiratory surgery, other",5.212886430801523e-05
+"cat__Condition_Neoplasm-spinal cord, surgery or other related procedures",5.199852516569555e-05
+cat__uniquepid_009-10149,5.181203765845017e-05
+cat__Condition_Amputation (non-traumatic),5.1725813729106954e-05
+cat__Condition_Cystectomy for neoplasm,5.142856586521954e-05
+cat__uniquepid_008-10102,5.101234908150683e-05
+cat__uniquepid_002-13954,5.079323391940919e-05
+cat__Condition_Renal infection/abscess,5.047873167811923e-05
+cat__uniquepid_009-10050,5.040550296749474e-05
+cat__care_plan_following_discharge_Home Health; Medication Management; Cardiac Rehab,5.001960567119361e-05
+cat__Condition_Transphenoidal surgery,4.981740400239002e-05
+"cat__Condition_Facial surgery (if related to trauma, see Trauma)",4.9769631920728754e-05
+cat__uniquepid_002-10187,4.9494720630036524e-05
+cat__Condition_Meningitis,4.925548763953206e-05
+"cat__Condition_Cancer, stomach",4.90775182492185e-05
+cat__care_plan_following_discharge_Dialysis Schedule,4.8773824665115264e-05
+cat__uniquepid_003-10109,4.877340967315676e-05
+cat__uniquepid_009-1071,4.838064881114153e-05
+"cat__Condition_Sepsis, cutaneous/soft tissue",4.8246408389001644e-05
+cat__uniquepid_002-14497,4.776057997619578e-05
+cat__Condition_Burr hole placement,4.762045637571858e-05
+cat__uniquepid_004-10342,4.733952078509233e-05
+cat__care_plan_following_discharge_Follow-up Pulmonology; Pulmonary Rehab,4.718848154288275e-05
+cat__care_plan_following_discharge_Physical Therapy; Pain Management,4.709031486829316e-05
+cat__Condition_Cholangitis,4.6940244843389576e-05
+cat__care_plan_following_discharge_Home O2 Therapy; Smoking Cessation; Follow-up Pulmonology,4.6741741851807996e-05
+cat__uniquepid_002-13346,4.632008428347603e-05
+"cat__Condition_Chest pain, atypical (noncardiac chest pain)",4.608389314047793e-05
+cat__care_plan_following_discharge_Smoking Cessation; Home O2 Therapy,4.5854820781310605e-05
+"cat__Condition_Hydrocephalus, obstructive",4.5844020517206596e-05
+cat__care_plan_following_discharge_Dietary Modification; Pain Management; Surgical Follow-up,4.520515894165237e-05
+cat__uniquepid_002-10556,4.4996276537795105e-05
+"cat__Condition_Orthopedic surgery, other",4.489466213593997e-05
+cat__care_plan_following_discharge_Medication Management; Cardiac Rehab; Follow-up Cardiology,4.473411849267079e-05
+cat__uniquepid_003-14940,4.4594174176188616e-05
+"cat__Condition_Infection/abscess, other surgery for",4.4365673229923e-05
+cat__uniquepid_003-11560,4.416172589252062e-05
+cat__care_plan_following_discharge_Follow-up Neurology; Speech Therapy,4.397059093415442e-05
+cat__uniquepid_002-14511,4.3897094569323174e-05
+cat__Condition_Gastrostomy,4.288446264150308e-05
+cat__care_plan_following_discharge_IV Antibiotics Completion; Follow-up Infectious Disease,4.2683639132480594e-05
+cat__uniquepid_002-16095,4.2291959253015926e-05
+cat__care_plan_following_discharge_IV Antibiotics Completion; Wound Care,4.2160798163589403e-05
+"cat__Condition_GI obstruction, surgery for (including lysis of adhesions)",4.162912652201028e-05
+"cat__Condition_Cellulitis and localized soft tissue infections, surgery for",4.157584771160813e-05
+"cat__Condition_Cancer, pancreatic",4.0860189703774586e-05
+"cat__Condition_Thrombus, arterial",4.067210130210935e-05
+cat__Condition_Subarachnoid hemorrhage/intracranial aneurysm,4.0611835679879424e-05
+"cat__Condition_GI surgery, other",3.970580314376523e-05
+cat__uniquepid_007-10234,3.959327533280327e-05
+"cat__Condition_Obstruction/other, surgery for (with or without ileal conduit)",3.9350928854073424e-05
+cat__Condition_Seizures (primary-no structural brain disease),3.9192355310844644e-05
+"cat__Condition_Aneurysms, repair of other (except ventricular)",3.846264344514814e-05
+cat__care_plan_following_discharge_Medication Management; Follow-up Cardiology; Cardiac Rehab,3.82408828864564e-05
+"cat__Condition_Complications of previous open-heart surgery, surgery for (i.e. bleeding, infection, mediastinal rewiring,leaking aortic graft etc.)",3.7810104201399766e-05
+cat__care_plan_following_discharge_Nutrition Support,3.775689983312216e-05
+cat__care_plan_following_discharge_Follow-up Pulmonology; Smoking Cessation; Home O2 Therapy,3.654911888436086e-05
+cat__uniquepid_002-12868,3.637110770504022e-05
+cat__care_plan_following_discharge_Home O2 Therapy; Follow-up Pulmonology; Smoking Cessation,3.631031532997259e-05
+cat__Condition_Chest/pelvis trauma,3.593500254355471e-05
+cat__uniquepid_002-10686,3.515720105439069e-05
+cat__uniquepid_007-11066,3.510553368277571e-05
+cat__Condition_Heart transplant,3.461937765203675e-05
+"cat__Condition_Tamponade, pericardial",3.426185168279691e-05
+cat__uniquepid_002-17248,3.413113261508486e-05
+cat__care_plan_following_discharge_Follow-up Infectious Disease; IV Antibiotics Completion; Home Health,3.3545873502691895e-05
+"cat__Condition_Overdose, analgesic (aspirin, acetaminophen)",3.3114978558358275e-05
+"cat__Condition_Overdose, sedatives, hypnotics, antipsychotics, benzodiazepines",3.220864805794804e-05
+cat__care_plan_following_discharge_Cardiac Rehab; Follow-up Cardiology; Home Health,3.1944652904148204e-05
+cat__uniquepid_007-10333,3.113199134653363e-05
+cat__care_plan_following_discharge_Speech Therapy; Follow-up Neurology; Physical Therapy,3.086522784111973e-05
+cat__uniquepid_002-10665,3.0778347946394444e-05
+"cat__Condition_Chest pain, epigastric",3.06317403593462e-05
+cat__care_plan_following_discharge_Wound Care; Home Health,3.048767713900119e-05
+cat__care_plan_following_discharge_Pulmonary Rehab; Follow-up Pulmonology,3.0295404838152134e-05
+cat__care_plan_following_discharge_Smoking Cessation; Pulmonary Rehab; Follow-up Pulmonology,3.0178014146379914e-05
+cat__care_plan_following_discharge_Home O2 Therapy; Follow-up Pulmonology; Pulmonary Rehab,3.0024679982399122e-05
+cat__Condition_Abdomen only trauma,2.9871086473556183e-05
+"cat__Condition_Endarterectomy, carotid",2.97186802982934e-05
+"cat__Condition_Hematoma subdural, surgery for",2.9485023887525587e-05
+"cat__Condition_Biopsy, open lung",2.9074499264834875e-05
+cat__care_plan_following_discharge_Follow-up Cardiology; Medication Management; Cardiac Rehab,2.8949622860081722e-05
+cat__uniquepid_002-15703,2.887288686407404e-05
+"cat__Condition_Angina, unstable (angina interferes w/quality of life or meds are tolerated poorly)",2.8744399046850588e-05
+cat__Condition_Aortic and Mitral valve replacement,2.8732633286378902e-05
+"cat__Condition_Aneurysm, thoracic aortic",2.8716760144069662e-05
+cat__Condition_Rhythm disturbance (ventricular),2.827594632468088e-05
+"cat__Condition_Abscess, neurologic",2.8234830277181057e-05
+cat__uniquepid_007-11836,2.8018526400803997e-05
+"cat__Condition_Angina, stable (asymp or stable pattern of symptoms w/meds)",2.737816135610112e-05
+"cat__Condition_Cardiovascular surgery, other",2.7340488786339588e-05
+"cat__Condition_Restrictive lung disease (i.e., Sarcoidosis, pulmonary fibrosis)",2.7020780890512384e-05
+cat__care_plan_following_discharge_Medication Management; Home Health; Follow-up Cardiology,2.671631956289297e-05
+cat__Condition_Head/chest trauma,2.6440836268959034e-05
+cat__uniquepid_002-3609,2.5610078073437056e-05
+"cat__Condition_Hematoma, subdural",2.5471675706091907e-05
+cat__uniquepid_002-8801,2.51335608366625e-05
+cat__care_plan_following_discharge_Nutrition Counseling; Endocrinology Follow-up; Diabetes Education,2.5029508011741195e-05
+"cat__Condition_Hip replacement, total (non-traumatic)",2.485650369999151e-05
+cat__uniquepid_002-10287,2.4498374769642818e-05
+"cat__Condition_Aneurysm/pseudoaneurysm, other",2.4236667693831776e-05
+cat__uniquepid_003-17649,2.412912579092316e-05
+cat__uniquepid_007-10076,2.4016816724774472e-05
+cat__Condition_Thoracotomy for lung reduction,2.4007825602513345e-05
+cat__uniquepid_007-11803,2.3962681222546314e-05
+cat__Condition_Aortic valve replacement (isolated),2.3737311908239064e-05
+cat__care_plan_following_discharge_Follow-up Cardiology; Home Health; Cardiac Rehab,2.369507510707995e-05
+"cat__Condition_Sepsis, renal/UTI (including bladder)",2.2917131406995468e-05
+cat__Condition_Inflammatory bowel disease,2.280909576665706e-05
+cat__uniquepid_002-4484,2.2701525208524862e-05
+cat__uniquepid_002-19769,2.2655228624962074e-05
+"cat__Condition_Pneumonia, other",2.2144700814171665e-05
+cat__care_plan_following_discharge_Wound Care; Follow-up Infectious Disease,2.190208604571461e-05
+"cat__Condition_Genitourinary surgery, other",2.1617243290250203e-05
+cat__uniquepid_002-10586,2.1554100302240655e-05
+"cat__Condition_Sepsis, unknown",2.1455303286448243e-05
+cat__care_plan_following_discharge_Occupational Therapy; Follow-up Neurology; Physical Therapy,2.1450890608380938e-05
+cat__Condition_MI admitted > 24 hrs after onset of ischemia,2.1426152299446805e-05
+cat__uniquepid_002-13276,2.0972020673471254e-05
+cat__uniquepid_002-1043,2.0901137471757904e-05
+cat__uniquepid_009-10467,2.0620858436649028e-05
+cat__uniquepid_003-15821,1.9956163052425874e-05
+cat__uniquepid_002-12755,1.978175635391231e-05
+"cat__Condition_Pneumonia, viral",1.9418006863692963e-05
+cat__care_plan_following_discharge_Wound Care; Home Health; Follow-up Infectious Disease,1.9255743010474352e-05
+cat__uniquepid_003-43270,1.9143050136513237e-05
+cat__uniquepid_007-10693,1.8620002454924344e-05
+"cat__Condition_Cardiovascular medical, other",1.8418334448772454e-05
+cat__care_plan_following_discharge_Follow-up Infectious Disease; Wound Care; Home Health,1.800412868052047e-05
+cat__Condition_Heat exhaustion/stroke,1.7844764081691802e-05
+cat__uniquepid_007-1250,1.7836407634092795e-05
+cat__uniquepid_003-10838,1.7673332168243196e-05
+cat__care_plan_following_discharge_Dietary Restriction; Fluid Management; Dialysis Schedule,1.7175949537667746e-05
+"cat__Condition_Hepatic failure, acute",1.7071305120570984e-05
+cat__uniquepid_004-11064,1.695208816945221e-05
+cat__Condition_Hematomas,1.6829800987258655e-05
+cat__uniquepid_009-10244,1.6822116407812913e-05
+cat__Condition_Extremity only trauma,1.641568666166629e-05
+"cat__Condition_GI perforation/rupture, surgery for",1.6302731755078566e-05
+cat__uniquepid_007-10380,1.5949812167946546e-05
+"cat__Condition_Infarction, acute myocardial (MI)",1.5866020916109187e-05
+cat__care_plan_following_discharge_Pulmonary Rehab; Home O2 Therapy; Smoking Cessation,1.5864656692279442e-05
+cat__care_plan_following_discharge_Smoking Cessation; Follow-up Pulmonology,1.5862322937151628e-05
+cat__uniquepid_002-10964,1.5824768951487804e-05
+"cat__Condition_Hemorrhage/hematoma, intracranial",1.578857573434268e-05
+cat__care_plan_following_discharge_Follow-up Neurology; Speech Therapy; Physical Therapy,1.5712117619971432e-05
+"cat__Condition_Defibrillator, automatic implantable cardiac; insertion of",1.5696592372380078e-05
+cat__Condition_Chest thorax only trauma,1.5663782285735297e-05
+cat__care_plan_following_discharge_Follow-up Infectious Disease; Wound Care; IV Antibiotics Completion,1.5610960226734952e-05
+cat__care_plan_following_discharge_Follow-up Pulmonology; Home O2 Therapy,1.552225442516079e-05
+"cat__Condition_Overdose, antidepressants (cyclic, lithium)",1.544622465670956e-05
+cat__care_plan_following_discharge_Support Group; Psychiatric Follow-up,1.514752396865913e-05
+cat__care_plan_following_discharge_Pulmonary Rehab; Home O2 Therapy; Follow-up Pulmonology,1.497107701887669e-05
+cat__uniquepid_002-11312,1.448415879023799e-05
+cat__care_plan_following_discharge_Speech Therapy; Physical Therapy; Follow-up Neurology,1.4315862681445301e-05
+"cat__Condition_Bleeding, GI-location unknown",1.4012961286514635e-05
+cat__uniquepid_007-11948,1.383041646401111e-05
+"cat__Condition_Sepsis, GI",1.3794134977130215e-05
+cat__uniquepid_003-10799,1.3619563800288312e-05
+cat__uniquepid_004-11995,1.3577548866510991e-05
+"cat__Condition_Metabolic/endocrine medical, other",1.3529839063810616e-05
+cat__uniquepid_003-10552,1.3440103528942726e-05
+cat__Condition_Hysterectomy for other benign neoplasm/fibroids,1.3389776511802516e-05
+cat__uniquepid_002-12966,1.3368817103300257e-05
+cat__uniquepid_003-11569,1.2916534940705542e-05
+cat__care_plan_following_discharge_Home Health; Wound Care; Follow-up Infectious Disease,1.2744156903159074e-05
+cat__uniquepid_002-9507,1.2657644750039358e-05
+cat__uniquepid_002-11539,1.2655088187151193e-05
+cat__uniquepid_002-10076,1.2599833425529145e-05
+cat__care_plan_following_discharge_Pulmonary Rehab; Follow-up Pulmonology; Home O2 Therapy,1.2580724764205058e-05
+cat__care_plan_following_discharge_Physical Therapy; Speech Therapy; Occupational Therapy,1.2422399836290537e-05
+cat__uniquepid_007-10360,1.237173327110245e-05
+cat__uniquepid_008-10539,1.2047501887152008e-05
+cat__uniquepid_007-10885,1.20129571514674e-05
+"cat__Condition_Cancer-small intestinal, surgery for",1.1969939336714923e-05
+cat__Condition_Anemia,1.1931831937477051e-05
+cat__uniquepid_007-12603,1.179553880503749e-05
+cat__uniquepid_002-13229,1.175391293542628e-05
+cat__care_plan_following_discharge_Pulmonary Rehab; Smoking Cessation; Follow-up Pulmonology,1.16694873348822e-05
+cat__uniquepid_010-10712,1.1556958640045879e-05
+cat__Condition_Kidney transplant,1.1535112595188351e-05
+cat__care_plan_following_discharge_Home Health; Follow-up Cardiology; Cardiac Rehab,1.1504564266006108e-05
+cat__uniquepid_007-11007,1.1424559217932565e-05
+cat__uniquepid_010-10526,1.139599821831008e-05
+cat__uniquepid_009-10084,1.1247705109909631e-05
+cat__uniquepid_002-14180,1.1205503936752935e-05
+cat__uniquepid_003-24391,1.1009024545113127e-05
+cat__care_plan_following_discharge_Occupational Therapy; Physical Therapy,1.0805765046624564e-05
+cat__uniquepid_002-13010,1.0734437720683876e-05
+cat__care_plan_following_discharge_Pulmonary Rehab; Follow-up Pulmonology; Smoking Cessation,1.053392545437252e-05
+cat__care_plan_following_discharge_Follow-up Infectious Disease; IV Antibiotics Completion,1.0504771804565882e-05
+cat__uniquepid_002-1057,1.0495344315933785e-05
+cat__uniquepid_002-13547,1.0477819752556792e-05
+cat__uniquepid_002-9035,1.0398096180399661e-05
+cat__uniquepid_010-10222,1.0364751780722013e-05
+cat__care_plan_following_discharge_Home O2 Therapy; Smoking Cessation; Pulmonary Rehab,1.0299127704052302e-05
+cat__uniquepid_007-12092,1.0159049323542116e-05
+cat__care_plan_following_discharge_Smoking Cessation; Follow-up Pulmonology; Home O2 Therapy,1.015878456192443e-05
+cat__uniquepid_002-3296,1.0000983418579647e-05
+cat__care_plan_following_discharge_Follow-up Cardiology; Medication Management; Home Health,9.93426879946467e-06
+cat__care_plan_following_discharge_Home Health; Medication Management; Follow-up Cardiology,9.816916953833978e-06
+"cat__Condition_Hemorrhage/hematoma-intracranial, surgery for",9.735017948246685e-06
+cat__Condition_Chest/extremity trauma,9.495581002177734e-06
+cat__uniquepid_002-15827,9.360773606539182e-06
+cat__care_plan_following_discharge_Physical Therapy; Follow-up Neurology,9.234619584686833e-06
+cat__uniquepid_003-15761,9.120576991006422e-06
+cat__care_plan_following_discharge_Occupational Therapy; Speech Therapy,8.919859710073451e-06
+cat__uniquepid_003-48069,8.871435111207288e-06
+cat__Condition_Thoracotomy for other malignancy in chest,8.870229043887572e-06
+"cat__Condition_Graft for dialysis, insertion of",8.777585287224616e-06
+cat__uniquepid_007-10743,8.74425759081727e-06
+cat__uniquepid_009-10283,8.68771635383654e-06
+cat__uniquepid_002-11986,8.575103075136827e-06
+cat__uniquepid_003-10003,8.431222621760024e-06
+"cat__Condition_Obesity-morbid, surgery for",8.391230243306264e-06
+cat__uniquepid_007-10638,8.362483371897676e-06
+cat__Condition_Atelectasis,8.329515540152038e-06
+cat__uniquepid_007-10476,8.324708873184985e-06
+cat__care_plan_following_discharge_Follow-up Infectious Disease; Home Health; Wound Care,8.32414097208142e-06
+cat__uniquepid_007-10859,8.292663181339483e-06
+cat__uniquepid_004-17036,8.276635210134443e-06
+cat__care_plan_following_discharge_Support Group; Medication-Assisted Treatment,8.219870491515254e-06
+cat__uniquepid_003-13170,8.109889656343996e-06
+cat__uniquepid_003-18285,7.96296963691566e-06
+cat__Condition_Diabetic hyperglycemic hyperosmolar nonketotic coma (HHNC),7.957615595606927e-06
+cat__uniquepid_002-14203,7.882532913704564e-06
+cat__uniquepid_009-10480,7.77728271580539e-06
+cat__uniquepid_010-10734,7.767494354497454e-06
+cat__uniquepid_007-10658,7.762888187743903e-06
+cat__Condition_Pneumothorax,7.737044134399317e-06
+cat__uniquepid_009-10575,7.690190673478284e-06
+cat__uniquepid_004-20074,7.654257438356052e-06
+cat__uniquepid_002-12700,7.58487716227999e-06
+cat__Condition_Cardiomyopathy,7.4143543535690024e-06
+cat__uniquepid_007-10281,7.393740755100951e-06
+cat__care_plan_following_discharge_Pain Management,7.128543946608238e-06
+cat__uniquepid_003-10570,7.0944191478746855e-06
+cat__care_plan_following_discharge_Follow-up Neurology; Occupational Therapy,7.087536554067442e-06
+cat__uniquepid_009-10606,7.059522213192369e-06
+cat__uniquepid_002-13651,7.024577126347227e-06
+cat__uniquepid_003-23111,7.0076388685949996e-06
+cat__uniquepid_007-10284,6.9916910539325485e-06
+cat__uniquepid_010-10326,6.982899510929696e-06
+cat__uniquepid_002-14505,6.980179984842363e-06
+cat__care_plan_following_discharge_Nutrition Counseling,6.913777707321236e-06
+cat__Condition_Endarterectomy (other vessels),6.80164802481773e-06
+cat__uniquepid_002-11830,6.790433123628152e-06
+cat__uniquepid_002-10249,6.778021737514279e-06
+cat__care_plan_following_discharge_Addiction Counseling,6.758878295757589e-06
+cat__care_plan_following_discharge_Home O2 Therapy; Pulmonary Rehab; Follow-up Pulmonology,6.754557215006786e-06
+cat__uniquepid_007-1274,6.7382577309333e-06
+cat__uniquepid_009-10052,6.737165242149548e-06
+cat__Condition_Thoracotomy for thoracic/respiratory infection,6.691554895101898e-06
+cat__uniquepid_007-11455,6.612235159036136e-06
+cat__uniquepid_004-17127,6.427731993623107e-06
+cat__care_plan_following_discharge_Wound Care; IV Antibiotics Completion,6.302863214621293e-06
+"cat__Condition_Bleeding, upper GI",6.300905884365383e-06
+cat__uniquepid_009-10053,6.283742303049789e-06
+cat__gender_unknown,6.26181916031586e-06
+cat__uniquepid_009-10457,6.193817802801707e-06
+cat__uniquepid_010-10457,6.037255930393496e-06
+cat__uniquepid_002-12279,6.029228925418208e-06
+cat__care_plan_following_discharge_Surgical Follow-up,5.948463049864125e-06
+cat__uniquepid_007-11989,5.945875392213138e-06
+"cat__Condition_Neurologic surgery, other",5.940076451249206e-06
+cat__uniquepid_002-10549,5.916100351887424e-06
+cat__care_plan_following_discharge_Smoking Cessation; Pulmonary Rehab; Home O2 Therapy,5.788879325457631e-06
+cat__uniquepid_002-13750,5.77565944952471e-06
+cat__uniquepid_007-10364,5.718952700945551e-06
+cat__care_plan_following_discharge_Psychiatric Follow-up; Medication-Assisted Treatment; Support Group,5.678192395182536e-06
+cat__care_plan_following_discharge_Speech Therapy; Follow-up Neurology; Occupational Therapy,5.531102266016901e-06
+cat__uniquepid_007-10331,5.518881151391293e-06
+cat__uniquepid_010-10345,5.494076478568681e-06
+cat__uniquepid_002-11232,5.456943979477206e-06
+cat__uniquepid_002-1025,5.3371309048251325e-06
+cat__uniquepid_007-10096,5.289667694834355e-06
+cat__care_plan_following_discharge_Psychiatric Follow-up; Support Group; Addiction Counseling,5.287105337887712e-06
+cat__uniquepid_002-11129,5.273495097637606e-06
+"cat__Condition_Embolus, pulmonary",5.233714828379904e-06
+"cat__Condition_CHF, congestive heart failure",5.227032864598425e-06
+cat__uniquepid_010-10535,5.205130647889828e-06
+cat__uniquepid_002-10157,5.178918545835505e-06
+"cat__Condition_Neurologic medical, other",5.079693947349321e-06
+cat__uniquepid_003-12055,5.077153687371622e-06
+cat__uniquepid_002-13674,4.961690003515202e-06
+cat__uniquepid_007-10050,4.891700640851276e-06
+cat__uniquepid_003-12647,4.8636734592807254e-06
+cat__uniquepid_002-10571,4.85894735271708e-06
+cat__care_plan_following_discharge_Pain Management; Surgical Follow-up,4.845883421251275e-06
+"cat__Condition_Cystectomy, other reasons",4.8405597462240506e-06
+cat__Condition_Ablation or mapping of cardiac conduction pathway,4.774658651239956e-06
+cat__uniquepid_007-10067,4.773919771482731e-06
+cat__uniquepid_004-1255,4.7514250867782264e-06
+cat__Condition_Whipple-surgery for pancreatic cancer,4.718481030545782e-06
+cat__uniquepid_003-12488,4.679933355865023e-06
+cat__uniquepid_007-10911,4.625626482231444e-06
+cat__uniquepid_007-10750,4.582173888640009e-06
+cat__care_plan_following_discharge_Psychiatric Follow-up; Support Group,4.567262710268721e-06
+cat__Condition_Head/multiple trauma,4.563406295035944e-06
+cat__uniquepid_009-10231,4.538106988993146e-06
+cat__care_plan_following_discharge_Dietary Restriction,4.5183746613272225e-06
+cat__uniquepid_002-7769,4.502279508100488e-06
+cat__uniquepid_002-7631,4.478145256993478e-06
+cat__uniquepid_002-10745,4.4345382663803646e-06
+cat__Condition_Embolectomy (with general anesthesia),4.412442340152218e-06
+cat__uniquepid_010-10380,4.406782916169801e-06
+cat__uniquepid_002-10566,4.4037454584115956e-06
+cat__care_plan_following_discharge_Dialysis Schedule; Nephrology Follow-up; Dietary Restriction,4.33159754503638e-06
+cat__care_plan_following_discharge_Nutrition Counseling; Home Glucose Monitoring,4.2294161252503e-06
+cat__uniquepid_002-12715,4.213717154432922e-06
+cat__uniquepid_009-1133,4.168268377158476e-06
+cat__uniquepid_007-10004,4.108959696797614e-06
+cat__uniquepid_007-10563,4.084836986585462e-06
+cat__care_plan_following_discharge_Follow-up Pulmonology; Pulmonary Rehab; Home O2 Therapy,3.9933199402388085e-06
+cat__uniquepid_003-14791,3.883673933409463e-06
+cat__uniquepid_002-8525,3.872137314167345e-06
+cat__uniquepid_002-12328,3.861596640850908e-06
+cat__uniquepid_002-10669,3.85011185313503e-06
+cat__uniquepid_009-10447,3.840208645406651e-06
+cat__care_plan_following_discharge_Home Health; Follow-up Infectious Disease,3.838583078242334e-06
+cat__uniquepid_010-10330,3.822723454733548e-06
+cat__uniquepid_009-10147,3.8020013325085674e-06
+cat__care_plan_following_discharge_Follow-up Pulmonology; Home O2 Therapy; Smoking Cessation,3.6962872166755578e-06
+cat__care_plan_following_discharge_Medication-Assisted Treatment; Support Group; Addiction Counseling,3.6278047317982063e-06
+cat__uniquepid_007-12492,3.6210592380213517e-06
+cat__uniquepid_003-36945,3.591769693180209e-06
+cat__care_plan_following_discharge_Home O2 Therapy; Pulmonary Rehab,3.5562608301936306e-06
+cat__uniquepid_007-10575,3.40894715861534e-06
+cat__care_plan_following_discharge_Addiction Counseling; Psychiatric Follow-up; Medication-Assisted Treatment,3.381913170820397e-06
+cat__care_plan_following_discharge_Wound Care; Follow-up Infectious Disease; Home Health,3.3656127817911763e-06
+cat__care_plan_following_discharge_Oncology Follow-up,3.3394201075893434e-06
+cat__Condition_Endocarditis,3.1469203381274253e-06
+cat__uniquepid_007-10412,3.1453710510537037e-06
+cat__care_plan_following_discharge_Physical Therapy; Speech Therapy,3.118042898392464e-06
+cat__care_plan_following_discharge_Follow-up Infectious Disease; Home Health; IV Antibiotics Completion,3.0833448844259224e-06
+cat__uniquepid_002-13247,2.991495051679236e-06
+cat__Condition_Acid-base/electrolyte disturbance,2.91466097879815e-06
+cat__uniquepid_003-13269,2.8556430265993684e-06
+cat__uniquepid_010-10728,2.7334086938966204e-06
+cat__uniquepid_009-12270,2.705461603364173e-06
+cat__uniquepid_007-10733,2.6317359115682796e-06
+cat__uniquepid_002-10064,2.606817729060529e-06
+cat__uniquepid_007-11887,2.5991806968840736e-06
+cat__uniquepid_003-12374,2.59878913010822e-06
+cat__uniquepid_003-13817,2.485131546038741e-06
+cat__uniquepid_008-10413,2.4738412458988306e-06
+cat__uniquepid_002-13637,2.4332096129799485e-06
+cat__uniquepid_007-10145,2.4069783224396096e-06
+cat__care_plan_following_discharge_Home Health; Cardiac Rehab; Follow-up Cardiology,2.3338639048815514e-06
+cat__uniquepid_002-10560,2.299214247996551e-06
+cat__care_plan_following_discharge_Wound Care; Dietary Modification; Pain Management,2.28568401691418e-06
+cat__care_plan_following_discharge_Home Health; IV Antibiotics Completion,2.2072203651720704e-06
+cat__uniquepid_002-12664,2.1498712822195668e-06
+cat__uniquepid_009-11526,2.0152999845922627e-06
+cat__uniquepid_007-10069,1.975356946691003e-06
+cat__uniquepid_007-10932,1.815333402316035e-06
+cat__uniquepid_009-10691,1.725347245968693e-06
+cat__uniquepid_003-11556,1.7061406550912086e-06
+cat__care_plan_following_discharge_Speech Therapy; Follow-up Neurology,1.701500480615921e-06
+cat__uniquepid_007-12505,1.6481493187845328e-06
+cat__uniquepid_002-8507,1.6232986319500086e-06
+cat__uniquepid_007-1195,1.6157987030060136e-06
+cat__uniquepid_003-13136,1.5858862609874209e-06
+cat__uniquepid_002-14178,1.5461408374112395e-06
+"cat__Condition_Cancer-esophageal, surgery for (abdominal approach)",1.5444393257213263e-06
+cat__uniquepid_002-12563,1.487961369974059e-06
+cat__uniquepid_009-11225,1.4756748691581105e-06
+cat__care_plan_following_discharge_Surgical Follow-up; Pain Management,1.4123999659310785e-06
+cat__uniquepid_007-11432,1.3991355603844483e-06
+cat__uniquepid_002-16811,1.3213988997842895e-06
+cat__uniquepid_002-2252,1.1262123212856492e-06
+cat__uniquepid_007-10870,1.1208266956676512e-06
+cat__uniquepid_002-8430,1.0628922700298094e-06
+cat__uniquepid_002-14380,9.706071942127026e-07
+cat__uniquepid_002-14486,9.434477236314443e-07
+cat__uniquepid_002-17765,8.15358272194105e-07
+cat__uniquepid_003-34364,6.436475523321479e-07
+cat__uniquepid_002-5872,6.337742721637694e-07
+cat__care_plan_following_discharge_Follow-up Neurology; Physical Therapy; Speech Therapy,5.426547127957462e-07
+cat__uniquepid_004-11785,5.17788488347633e-07
+cat__care_plan_following_discharge_Addiction Counseling; Medication-Assisted Treatment; Psychiatric Follow-up,4.798680741009014e-07
+cat__Condition_Nephrectomy for neoplasm,3.4618652639233804e-07
+cat__uniquepid_002-1602,2.053217774183108e-07
+cat__uniquepid_009-10046,1.228278209844997e-07
+cat__uniquepid_002-13376,9.221355748658091e-08
+"cat__Condition_GI vascular ischemia, surgery for (resection)",8.819682666210916e-08
+cat__care_plan_following_discharge_Psychiatric Follow-up; Medication-Assisted Treatment; Addiction Counseling,8.644761591828536e-08
+cat__uniquepid_002-12401,4.000660391890106e-08
+cat__uniquepid_002-1360,2.2455326424682692e-08
+cat__uniquepid_002-9198,8.181673071345613e-09
+cat__uniquepid_007-10687,6.459473607190039e-09
+cat__uniquepid_002-1737,4.37428727805956e-09
+cat__uniquepid_002-11912,1.1193751629269365e-09
+cat__uniquepid_002-14360,6.536539140256712e-10
+cat__uniquepid_002-8669,5.300224726970327e-10
+cat__uniquepid_002-10754,2.906874884668899e-10
+cat__uniquepid_002-4090,8.973689451901764e-16
+cat__uniquepid_002-8468,5.681954590566634e-16
+cat__uniquepid_002-1396,4.901271237236309e-16
+cat__uniquepid_002-8746,1.984541581739811e-16
+cat__uniquepid_002-17188,1.7549306959777189e-16
+cat__uniquepid_002-10999,1.186529816430349e-16
+cat__uniquepid_002-7813,3.548250311182555e-17
+cat__uniquepid_002-6222,2.0975059885244465e-18
+cat__uniquepid_002-13706,1.0746982369005404e-18
+cat__uniquepid_002-12248,0.0
+cat__uniquepid_002-12256,0.0
+cat__uniquepid_002-12260,0.0
+cat__uniquepid_002-12268,0.0
+cat__uniquepid_002-13949,0.0
+cat__uniquepid_002-13952,0.0
+cat__uniquepid_002-13958,0.0
+cat__uniquepid_002-13965,0.0
+cat__uniquepid_002-13971,0.0
+cat__uniquepid_002-13974,0.0
+cat__uniquepid_002-13977,0.0
+cat__uniquepid_002-13981,0.0
+cat__uniquepid_002-1399,0.0
+cat__uniquepid_002-14175,0.0
+cat__uniquepid_002-14205,0.0
+cat__uniquepid_002-1421,0.0
+cat__uniquepid_002-14217,0.0
+cat__uniquepid_002-14223,0.0
+cat__uniquepid_002-14237,0.0
+cat__uniquepid_002-14239,0.0
+cat__uniquepid_002-1424,0.0
+cat__uniquepid_002-14244,0.0
+cat__uniquepid_002-14248,0.0
+cat__uniquepid_002-14280,0.0
+cat__uniquepid_002-14293,0.0
+cat__uniquepid_002-14301,0.0
+cat__uniquepid_002-14305,0.0
+cat__uniquepid_002-1432,0.0
+cat__uniquepid_002-14324,0.0
+cat__uniquepid_002-14335,0.0
+cat__uniquepid_002-14350,0.0
+cat__uniquepid_002-14351,0.0
+cat__uniquepid_002-14357,0.0
+cat__uniquepid_002-14359,0.0
+cat__uniquepid_002-14370,0.0
+cat__uniquepid_002-14376,0.0
+cat__uniquepid_002-14379,0.0
+cat__uniquepid_002-1438,0.0
+cat__uniquepid_002-14396,0.0
+cat__uniquepid_002-14406,0.0
+cat__uniquepid_002-14416,0.0
+cat__uniquepid_002-1442,0.0
+cat__uniquepid_002-14422,0.0
+cat__uniquepid_002-1443,0.0
+cat__uniquepid_002-14431,0.0
+cat__uniquepid_002-14436,0.0
+cat__uniquepid_002-1444,0.0
+cat__uniquepid_002-14441,0.0
+cat__uniquepid_002-14444,0.0
+cat__uniquepid_002-14452,0.0
+cat__uniquepid_002-14464,0.0
+cat__uniquepid_002-14481,0.0
+cat__uniquepid_002-14495,0.0
+cat__uniquepid_002-14503,0.0
+cat__uniquepid_002-14504,0.0
+cat__uniquepid_002-14508,0.0
+cat__uniquepid_002-14535,0.0
+cat__uniquepid_002-14536,0.0
+cat__uniquepid_002-14544,0.0
+cat__uniquepid_002-14547,0.0
+cat__uniquepid_002-14572,0.0
+cat__uniquepid_002-14596,0.0
+cat__uniquepid_002-14624,0.0
+cat__uniquepid_002-14627,0.0
+cat__uniquepid_002-14640,0.0
+cat__uniquepid_002-14643,0.0
+cat__uniquepid_002-14662,0.0
+cat__uniquepid_002-14667,0.0
+cat__uniquepid_002-14670,0.0
+cat__uniquepid_002-14675,0.0
+cat__uniquepid_002-14676,0.0
+cat__uniquepid_002-14695,0.0
+cat__uniquepid_002-14698,0.0
+cat__uniquepid_002-14706,0.0
+cat__uniquepid_002-14713,0.0
+cat__uniquepid_002-14718,0.0
+cat__uniquepid_002-14734,0.0
+cat__uniquepid_002-14739,0.0
+cat__uniquepid_002-14744,0.0
+cat__uniquepid_002-14749,0.0
+cat__uniquepid_002-14764,0.0
+cat__uniquepid_002-14772,0.0
+cat__uniquepid_002-14783,0.0
+cat__uniquepid_002-14809,0.0
+cat__uniquepid_002-1481,0.0
+cat__uniquepid_002-14816,0.0
+cat__uniquepid_002-14829,0.0
+cat__uniquepid_002-14832,0.0
+cat__uniquepid_002-14838,0.0
+cat__uniquepid_002-14854,0.0
+cat__uniquepid_002-1487,0.0
+cat__uniquepid_002-14881,0.0
+cat__uniquepid_002-1489,0.0
+cat__uniquepid_002-14895,0.0
+cat__uniquepid_002-14896,0.0
+cat__uniquepid_002-14899,0.0
+cat__uniquepid_002-14901,0.0
+cat__uniquepid_002-14912,0.0
+cat__uniquepid_002-14934,0.0
+cat__uniquepid_002-14952,0.0
+cat__uniquepid_002-14969,0.0
+cat__uniquepid_002-14972,0.0
+cat__uniquepid_002-14978,0.0
+cat__uniquepid_002-14986,0.0
+cat__uniquepid_002-14990,0.0
+cat__uniquepid_002-15001,0.0
+cat__uniquepid_002-15031,0.0
+cat__uniquepid_002-15051,0.0
+cat__uniquepid_002-1507,0.0
+cat__uniquepid_002-15070,0.0
+cat__uniquepid_002-15075,0.0
+cat__uniquepid_002-15108,0.0
+cat__uniquepid_002-15120,0.0
+cat__uniquepid_002-15121,0.0
+cat__uniquepid_002-15131,0.0
+cat__uniquepid_002-15139,0.0
+cat__uniquepid_002-15141,0.0
+cat__uniquepid_002-15142,0.0
+cat__uniquepid_002-15174,0.0
+cat__uniquepid_002-1519,0.0
+cat__uniquepid_002-15195,0.0
+cat__uniquepid_002-15204,0.0
+cat__uniquepid_002-15206,0.0
+cat__uniquepid_002-15213,0.0
+cat__uniquepid_002-15222,0.0
+cat__uniquepid_002-15235,0.0
+cat__uniquepid_002-15237,0.0
+cat__uniquepid_002-15253,0.0
+cat__uniquepid_002-15256,0.0
+cat__uniquepid_002-15257,0.0
+cat__uniquepid_002-15260,0.0
+cat__uniquepid_002-15262,0.0
+cat__uniquepid_002-15263,0.0
+cat__uniquepid_002-15282,0.0
+cat__uniquepid_002-15296,0.0
+cat__uniquepid_002-15304,0.0
+cat__uniquepid_002-15313,0.0
+cat__uniquepid_002-15323,0.0
+cat__uniquepid_002-15329,0.0
+cat__uniquepid_002-15341,0.0
+cat__uniquepid_002-15351,0.0
+cat__uniquepid_002-15362,0.0
+cat__uniquepid_002-15363,0.0
+cat__uniquepid_002-15366,0.0
+cat__uniquepid_002-15380,0.0
+cat__uniquepid_002-15393,0.0
+cat__uniquepid_002-15400,0.0
+cat__uniquepid_002-15406,0.0
+cat__uniquepid_002-15407,0.0
+cat__uniquepid_002-15416,0.0
+cat__uniquepid_002-15441,0.0
+cat__uniquepid_002-15451,0.0
+cat__uniquepid_002-15467,0.0
+cat__uniquepid_002-15488,0.0
+cat__uniquepid_002-15493,0.0
+cat__uniquepid_002-15500,0.0
+cat__uniquepid_002-15511,0.0
+cat__uniquepid_002-15514,0.0
+cat__uniquepid_002-15523,0.0
+cat__uniquepid_002-15552,0.0
+cat__uniquepid_002-15560,0.0
+cat__uniquepid_002-15582,0.0
+cat__uniquepid_002-15584,0.0
+cat__uniquepid_002-1559,0.0
+cat__uniquepid_002-15590,0.0
+cat__uniquepid_002-15592,0.0
+cat__uniquepid_002-15594,0.0
+cat__uniquepid_002-15601,0.0
+cat__uniquepid_002-15608,0.0
+cat__uniquepid_002-1561,0.0
+cat__uniquepid_002-15623,0.0
+cat__uniquepid_002-15629,0.0
+cat__uniquepid_002-15670,0.0
+cat__uniquepid_002-15676,0.0
+cat__uniquepid_002-15680,0.0
+cat__uniquepid_002-15693,0.0
+cat__uniquepid_002-15704,0.0
+cat__uniquepid_002-15708,0.0
+cat__uniquepid_002-15719,0.0
+cat__uniquepid_002-15727,0.0
+cat__uniquepid_002-15739,0.0
+cat__uniquepid_002-15745,0.0
+cat__uniquepid_002-15756,0.0
+cat__uniquepid_002-15763,0.0
+cat__uniquepid_002-15768,0.0
+cat__uniquepid_002-15769,0.0
+cat__uniquepid_002-15774,0.0
+cat__uniquepid_002-15780,0.0
+cat__uniquepid_002-15783,0.0
+cat__uniquepid_002-15788,0.0
+cat__uniquepid_002-15799,0.0
+cat__uniquepid_002-15807,0.0
+cat__uniquepid_002-15810,0.0
+cat__uniquepid_002-15837,0.0
+cat__uniquepid_002-15853,0.0
+cat__uniquepid_002-15870,0.0
+cat__uniquepid_002-15872,0.0
+cat__uniquepid_002-15881,0.0
+cat__uniquepid_002-15885,0.0
+cat__uniquepid_002-15886,0.0
+cat__uniquepid_002-15889,0.0
+cat__uniquepid_002-15910,0.0
+cat__uniquepid_002-15916,0.0
+cat__uniquepid_002-15922,0.0
+cat__uniquepid_002-15923,0.0
+cat__uniquepid_002-15927,0.0
+cat__uniquepid_002-15940,0.0
+cat__uniquepid_002-15951,0.0
+cat__uniquepid_002-15952,0.0
+cat__uniquepid_002-1597,0.0
+cat__uniquepid_002-15970,0.0
+cat__uniquepid_002-15971,0.0
+cat__uniquepid_002-15974,0.0
+cat__uniquepid_002-1598,0.0
+cat__uniquepid_002-15986,0.0
+cat__uniquepid_002-15990,0.0
+cat__uniquepid_002-16002,0.0
+cat__uniquepid_002-16004,0.0
+cat__uniquepid_002-16010,0.0
+cat__uniquepid_002-16026,0.0
+cat__uniquepid_002-16059,0.0
+cat__uniquepid_002-16062,0.0
+cat__uniquepid_002-16068,0.0
+cat__uniquepid_002-16069,0.0
+cat__uniquepid_002-16070,0.0
+cat__uniquepid_002-16098,0.0
+cat__uniquepid_002-16102,0.0
+cat__uniquepid_002-16110,0.0
+cat__uniquepid_002-16113,0.0
+cat__uniquepid_002-16117,0.0
+cat__uniquepid_002-1613,0.0
+cat__uniquepid_002-16130,0.0
+cat__uniquepid_002-16133,0.0
+cat__uniquepid_002-16150,0.0
+cat__uniquepid_002-16156,0.0
+cat__uniquepid_002-1616,0.0
+cat__uniquepid_002-16178,0.0
+cat__uniquepid_002-16191,0.0
+cat__uniquepid_002-16201,0.0
+cat__uniquepid_002-16204,0.0
+cat__uniquepid_002-16234,0.0
+cat__uniquepid_002-16269,0.0
+cat__uniquepid_002-16272,0.0
+cat__uniquepid_002-16274,0.0
+cat__uniquepid_002-16277,0.0
+cat__uniquepid_002-16282,0.0
+cat__uniquepid_002-16285,0.0
+cat__uniquepid_002-16296,0.0
+cat__uniquepid_002-1630,0.0
+cat__uniquepid_002-16301,0.0
+cat__uniquepid_002-16337,0.0
+cat__uniquepid_002-16371,0.0
+cat__uniquepid_002-16378,0.0
+cat__uniquepid_002-1638,0.0
+cat__uniquepid_002-16382,0.0
+cat__uniquepid_002-16391,0.0
+cat__uniquepid_002-16393,0.0
+cat__uniquepid_002-16397,0.0
+cat__uniquepid_002-16401,0.0
+cat__uniquepid_002-16403,0.0
+cat__uniquepid_002-16422,0.0
+cat__uniquepid_002-16431,0.0
+cat__uniquepid_002-16456,0.0
+cat__uniquepid_002-16466,0.0
+cat__uniquepid_002-16488,0.0
+cat__uniquepid_002-16492,0.0
+cat__uniquepid_002-16498,0.0
+cat__uniquepid_002-16503,0.0
+cat__uniquepid_002-16506,0.0
+cat__uniquepid_002-16512,0.0
+cat__uniquepid_002-16517,0.0
+cat__uniquepid_002-16542,0.0
+cat__uniquepid_002-16563,0.0
+cat__uniquepid_002-16572,0.0
+cat__uniquepid_002-16573,0.0
+cat__uniquepid_002-16577,0.0
+cat__uniquepid_002-16585,0.0
+cat__uniquepid_002-16588,0.0
+cat__uniquepid_002-16593,0.0
+cat__uniquepid_002-16600,0.0
+cat__uniquepid_002-16612,0.0
+cat__uniquepid_002-16613,0.0
+cat__uniquepid_002-16615,0.0
+cat__uniquepid_002-1663,0.0
+cat__uniquepid_002-16665,0.0
+cat__uniquepid_002-16669,0.0
+cat__uniquepid_002-16718,0.0
+cat__uniquepid_002-16732,0.0
+cat__uniquepid_002-16734,0.0
+cat__uniquepid_002-1675,0.0
+cat__uniquepid_002-16758,0.0
+cat__uniquepid_002-16767,0.0
+cat__uniquepid_002-16771,0.0
+cat__uniquepid_002-16790,0.0
+cat__uniquepid_002-16810,0.0
+cat__uniquepid_002-16813,0.0
+cat__uniquepid_002-16814,0.0
+cat__uniquepid_002-16822,0.0
+cat__uniquepid_002-16826,0.0
+cat__uniquepid_002-16833,0.0
+cat__uniquepid_002-16855,0.0
+cat__uniquepid_002-16860,0.0
+cat__uniquepid_002-16881,0.0
+cat__uniquepid_002-16901,0.0
+cat__uniquepid_002-16902,0.0
+cat__uniquepid_002-16928,0.0
+cat__uniquepid_002-16937,0.0
+cat__uniquepid_002-16941,0.0
+cat__uniquepid_002-16957,0.0
+cat__uniquepid_002-16966,0.0
+cat__uniquepid_002-16968,0.0
+cat__uniquepid_002-16970,0.0
+cat__uniquepid_002-16987,0.0
+cat__uniquepid_002-16993,0.0
+cat__uniquepid_002-17025,0.0
+cat__uniquepid_002-17030,0.0
+cat__uniquepid_002-17039,0.0
+cat__uniquepid_002-17048,0.0
+cat__uniquepid_002-1705,0.0
+cat__uniquepid_002-17052,0.0
+cat__uniquepid_002-17053,0.0
+cat__uniquepid_002-17057,0.0
+cat__uniquepid_002-17075,0.0
+cat__uniquepid_002-17076,0.0
+cat__uniquepid_002-1708,0.0
+cat__uniquepid_002-17086,0.0
+cat__uniquepid_002-17094,0.0
+cat__uniquepid_002-17101,0.0
+cat__uniquepid_002-17105,0.0
+cat__uniquepid_002-17113,0.0
+cat__uniquepid_002-17117,0.0
+cat__uniquepid_002-17130,0.0
+cat__uniquepid_002-17142,0.0
+cat__uniquepid_002-17148,0.0
+cat__uniquepid_002-1715,0.0
+cat__uniquepid_002-17156,0.0
+cat__uniquepid_002-17162,0.0
+cat__uniquepid_002-17165,0.0
+cat__uniquepid_002-17169,0.0
+cat__uniquepid_002-17174,0.0
+cat__uniquepid_002-17178,0.0
+cat__uniquepid_002-17184,0.0
+cat__uniquepid_002-17186,0.0
+cat__uniquepid_002-17195,0.0
+cat__uniquepid_002-17208,0.0
+cat__uniquepid_002-17209,0.0
+cat__uniquepid_002-17225,0.0
+cat__uniquepid_002-17227,0.0
+cat__uniquepid_002-17237,0.0
+cat__uniquepid_002-1724,0.0
+cat__uniquepid_002-17243,0.0
+cat__uniquepid_002-17251,0.0
+cat__uniquepid_002-17253,0.0
+cat__uniquepid_002-17256,0.0
+cat__uniquepid_002-17282,0.0
+cat__uniquepid_002-17283,0.0
+cat__uniquepid_002-17300,0.0
+cat__uniquepid_002-17307,0.0
+cat__uniquepid_002-17325,0.0
+cat__uniquepid_002-17337,0.0
+cat__uniquepid_002-1735,0.0
+cat__uniquepid_002-17366,0.0
+cat__uniquepid_002-1738,0.0
+cat__uniquepid_002-17393,0.0
+cat__uniquepid_002-17396,0.0
+cat__uniquepid_002-17397,0.0
+cat__uniquepid_002-17404,0.0
+cat__uniquepid_002-17415,0.0
+cat__uniquepid_002-17417,0.0
+cat__uniquepid_002-17418,0.0
+cat__uniquepid_002-17439,0.0
+cat__uniquepid_002-17459,0.0
+cat__uniquepid_002-17467,0.0
+cat__uniquepid_002-17476,0.0
+cat__uniquepid_002-1748,0.0
+cat__uniquepid_002-17485,0.0
+cat__uniquepid_002-17492,0.0
+cat__uniquepid_002-17501,0.0
+cat__uniquepid_002-1751,0.0
+cat__uniquepid_002-17510,0.0
+cat__uniquepid_002-17515,0.0
+cat__uniquepid_002-17517,0.0
+cat__uniquepid_002-17534,0.0
+cat__uniquepid_002-17543,0.0
+cat__uniquepid_002-17544,0.0
+cat__uniquepid_002-17562,0.0
+cat__uniquepid_002-17575,0.0
+cat__uniquepid_002-17576,0.0
+cat__uniquepid_002-17577,0.0
+cat__uniquepid_002-17584,0.0
+cat__uniquepid_002-17586,0.0
+cat__uniquepid_002-17591,0.0
+cat__uniquepid_002-17597,0.0
+cat__uniquepid_002-17598,0.0
+cat__uniquepid_002-17607,0.0
+cat__uniquepid_002-17616,0.0
+cat__uniquepid_002-17632,0.0
+cat__uniquepid_002-17636,0.0
+cat__uniquepid_002-17652,0.0
+cat__uniquepid_002-17657,0.0
+cat__uniquepid_002-1766,0.0
+cat__uniquepid_002-17660,0.0
+cat__uniquepid_002-17662,0.0
+cat__uniquepid_002-17669,0.0
+cat__uniquepid_002-17687,0.0
+cat__uniquepid_002-17691,0.0
+cat__uniquepid_002-1770,0.0
+cat__uniquepid_002-17706,0.0
+cat__uniquepid_002-17708,0.0
+cat__uniquepid_002-17716,0.0
+cat__uniquepid_002-17718,0.0
+cat__uniquepid_002-17724,0.0
+cat__uniquepid_002-17725,0.0
+cat__uniquepid_002-17728,0.0
+cat__uniquepid_002-17734,0.0
+cat__uniquepid_002-17739,0.0
+cat__uniquepid_002-17756,0.0
+cat__uniquepid_002-17766,0.0
+cat__uniquepid_002-17774,0.0
+cat__uniquepid_002-17782,0.0
+cat__uniquepid_002-17809,0.0
+cat__uniquepid_002-17818,0.0
+cat__uniquepid_002-17825,0.0
+cat__uniquepid_002-1784,0.0
+cat__uniquepid_002-17847,0.0
+cat__uniquepid_002-17852,0.0
+cat__uniquepid_002-17855,0.0
+cat__uniquepid_002-17870,0.0
+cat__uniquepid_002-17881,0.0
+cat__uniquepid_002-17907,0.0
+cat__uniquepid_002-17914,0.0
+cat__uniquepid_002-17918,0.0
+cat__uniquepid_002-17926,0.0
+cat__uniquepid_002-17965,0.0
+cat__uniquepid_002-17967,0.0
+cat__uniquepid_002-1798,0.0
+cat__uniquepid_002-17981,0.0
+cat__uniquepid_002-17982,0.0
+cat__uniquepid_002-17990,0.0
+cat__uniquepid_002-17993,0.0
+cat__uniquepid_002-18002,0.0
+cat__uniquepid_002-18009,0.0
+cat__uniquepid_002-18011,0.0
+cat__uniquepid_002-18032,0.0
+cat__uniquepid_002-18045,0.0
+cat__uniquepid_002-18056,0.0
+cat__uniquepid_002-18058,0.0
+cat__uniquepid_002-18068,0.0
+cat__uniquepid_002-18071,0.0
+cat__uniquepid_002-18112,0.0
+cat__uniquepid_002-18118,0.0
+cat__uniquepid_002-18131,0.0
+cat__uniquepid_002-18146,0.0
+cat__uniquepid_002-18167,0.0
+cat__uniquepid_002-18171,0.0
+cat__uniquepid_002-18186,0.0
+cat__uniquepid_002-18194,0.0
+cat__uniquepid_002-18200,0.0
+cat__uniquepid_002-18219,0.0
+cat__uniquepid_002-18237,0.0
+cat__uniquepid_002-18253,0.0
+cat__uniquepid_002-18257,0.0
+cat__uniquepid_002-1827,0.0
+cat__uniquepid_002-18271,0.0
+cat__uniquepid_002-18275,0.0
+cat__uniquepid_002-18281,0.0
+cat__uniquepid_002-1829,0.0
+cat__uniquepid_002-18295,0.0
+cat__uniquepid_002-18307,0.0
+cat__uniquepid_002-18320,0.0
+cat__uniquepid_002-18338,0.0
+cat__uniquepid_002-18348,0.0
+cat__uniquepid_002-18364,0.0
+cat__uniquepid_002-18367,0.0
+cat__uniquepid_002-18374,0.0
+cat__uniquepid_002-18377,0.0
+cat__uniquepid_002-18381,0.0
+cat__uniquepid_002-18406,0.0
+cat__uniquepid_002-18412,0.0
+cat__uniquepid_002-18422,0.0
+cat__uniquepid_002-1843,0.0
+cat__uniquepid_002-18449,0.0
+cat__uniquepid_002-18469,0.0
+cat__uniquepid_002-18494,0.0
+cat__uniquepid_002-18499,0.0
+cat__uniquepid_002-18502,0.0
+cat__uniquepid_002-18505,0.0
+cat__uniquepid_002-18513,0.0
+cat__uniquepid_002-18537,0.0
+cat__uniquepid_002-18543,0.0
+cat__uniquepid_002-18548,0.0
+cat__uniquepid_002-18556,0.0
+cat__uniquepid_002-18560,0.0
+cat__uniquepid_002-18562,0.0
+cat__uniquepid_002-18564,0.0
+cat__uniquepid_002-18580,0.0
+cat__uniquepid_002-18585,0.0
+cat__uniquepid_002-18609,0.0
+cat__uniquepid_002-18625,0.0
+cat__uniquepid_002-18636,0.0
+cat__uniquepid_002-18641,0.0
+cat__uniquepid_002-18652,0.0
+cat__uniquepid_002-18668,0.0
+cat__uniquepid_002-18675,0.0
+cat__uniquepid_002-18691,0.0
+cat__uniquepid_002-18703,0.0
+cat__uniquepid_002-18706,0.0
+cat__uniquepid_002-1871,0.0
+cat__uniquepid_002-18720,0.0
+cat__uniquepid_002-18756,0.0
+cat__uniquepid_002-18760,0.0
+cat__uniquepid_002-18770,0.0
+cat__uniquepid_002-18773,0.0
+cat__uniquepid_002-18783,0.0
+cat__uniquepid_002-18787,0.0
+cat__uniquepid_002-18791,0.0
+cat__uniquepid_002-18796,0.0
+cat__uniquepid_002-1880,0.0
+cat__uniquepid_002-18806,0.0
+cat__uniquepid_002-18812,0.0
+cat__uniquepid_002-18829,0.0
+cat__uniquepid_002-18843,0.0
+cat__uniquepid_002-18892,0.0
+cat__uniquepid_002-18918,0.0
+cat__uniquepid_002-18924,0.0
+cat__uniquepid_002-1893,0.0
+cat__uniquepid_002-18936,0.0
+cat__uniquepid_002-18947,0.0
+cat__uniquepid_002-18956,0.0
+cat__uniquepid_002-18959,0.0
+cat__uniquepid_002-18961,0.0
+cat__uniquepid_002-18977,0.0
+cat__uniquepid_002-18987,0.0
+cat__uniquepid_002-19000,0.0
+cat__uniquepid_002-19001,0.0
+cat__uniquepid_002-19009,0.0
+cat__uniquepid_002-19019,0.0
+cat__uniquepid_002-1904,0.0
+cat__uniquepid_002-19040,0.0
+cat__uniquepid_002-19043,0.0
+cat__uniquepid_002-19045,0.0
+cat__uniquepid_002-19048,0.0
+cat__uniquepid_002-19064,0.0
+cat__uniquepid_002-19078,0.0
+cat__uniquepid_002-19082,0.0
+cat__uniquepid_002-19096,0.0
+cat__uniquepid_002-19098,0.0
+cat__uniquepid_002-1910,0.0
+cat__uniquepid_002-19100,0.0
+cat__uniquepid_002-19107,0.0
+cat__uniquepid_002-19109,0.0
+cat__uniquepid_002-1911,0.0
+cat__uniquepid_002-19120,0.0
+cat__uniquepid_002-19122,0.0
+cat__uniquepid_002-19129,0.0
+cat__uniquepid_002-1913,0.0
+cat__uniquepid_002-19131,0.0
+cat__uniquepid_002-19133,0.0
+cat__uniquepid_002-19137,0.0
+cat__uniquepid_002-19170,0.0
+cat__uniquepid_002-19173,0.0
+cat__uniquepid_002-19178,0.0
+cat__uniquepid_002-19182,0.0
+cat__uniquepid_002-19196,0.0
+cat__uniquepid_002-1920,0.0
+cat__uniquepid_002-19209,0.0
+cat__uniquepid_002-19210,0.0
+cat__uniquepid_002-19217,0.0
+cat__uniquepid_002-1922,0.0
+cat__uniquepid_002-19236,0.0
+cat__uniquepid_002-19241,0.0
+cat__uniquepid_002-19242,0.0
+cat__uniquepid_002-19258,0.0
+cat__uniquepid_002-1926,0.0
+cat__uniquepid_002-19265,0.0
+cat__uniquepid_002-19268,0.0
+cat__uniquepid_002-19284,0.0
+cat__uniquepid_002-19290,0.0
+cat__uniquepid_002-19291,0.0
+cat__uniquepid_002-19300,0.0
+cat__uniquepid_002-19303,0.0
+cat__uniquepid_002-19309,0.0
+cat__uniquepid_002-1931,0.0
+cat__uniquepid_002-19310,0.0
+cat__uniquepid_002-19342,0.0
+cat__uniquepid_002-19349,0.0
+cat__uniquepid_002-19360,0.0
+cat__uniquepid_002-19369,0.0
+cat__uniquepid_002-19372,0.0
+cat__uniquepid_002-19377,0.0
+cat__uniquepid_002-19378,0.0
+cat__uniquepid_002-19405,0.0
+cat__uniquepid_002-19409,0.0
+cat__uniquepid_002-19422,0.0
+cat__uniquepid_002-19438,0.0
+cat__uniquepid_002-19461,0.0
+cat__uniquepid_002-19469,0.0
+cat__uniquepid_002-19470,0.0
+cat__uniquepid_002-19478,0.0
+cat__uniquepid_002-19479,0.0
+cat__uniquepid_002-19491,0.0
+cat__uniquepid_002-19492,0.0
+cat__uniquepid_002-19493,0.0
+cat__uniquepid_002-19512,0.0
+cat__uniquepid_002-19521,0.0
+cat__uniquepid_002-19543,0.0
+cat__uniquepid_002-19549,0.0
+cat__uniquepid_002-19550,0.0
+cat__uniquepid_002-19566,0.0
+cat__uniquepid_002-19579,0.0
+cat__uniquepid_002-19594,0.0
+cat__uniquepid_002-19601,0.0
+cat__uniquepid_002-19611,0.0
+cat__uniquepid_002-19636,0.0
+cat__uniquepid_002-19641,0.0
+cat__uniquepid_002-19650,0.0
+cat__uniquepid_002-19674,0.0
+cat__uniquepid_002-19675,0.0
+cat__uniquepid_002-19676,0.0
+cat__uniquepid_002-19683,0.0
+cat__uniquepid_002-19686,0.0
+cat__uniquepid_002-19687,0.0
+cat__uniquepid_002-1969,0.0
+cat__uniquepid_002-19703,0.0
+cat__uniquepid_002-19716,0.0
+cat__uniquepid_002-19719,0.0
+cat__uniquepid_002-19721,0.0
+cat__uniquepid_002-19724,0.0
+cat__uniquepid_002-19737,0.0
+cat__uniquepid_002-19742,0.0
+cat__uniquepid_002-19744,0.0
+cat__uniquepid_002-19770,0.0
+cat__uniquepid_002-19777,0.0
+cat__uniquepid_002-19782,0.0
+cat__uniquepid_002-19790,0.0
+cat__uniquepid_002-19819,0.0
+cat__uniquepid_002-1983,0.0
+cat__uniquepid_002-19831,0.0
+cat__uniquepid_002-19833,0.0
+cat__uniquepid_002-19841,0.0
+cat__uniquepid_002-19852,0.0
+cat__uniquepid_002-19854,0.0
+cat__uniquepid_002-19857,0.0
+cat__uniquepid_002-19867,0.0
+cat__uniquepid_002-19886,0.0
+cat__uniquepid_002-19888,0.0
+cat__uniquepid_002-19893,0.0
+cat__uniquepid_002-19902,0.0
+cat__uniquepid_002-19912,0.0
+cat__uniquepid_002-19929,0.0
+cat__uniquepid_002-1993,0.0
+cat__uniquepid_002-19930,0.0
+cat__uniquepid_002-19935,0.0
+cat__uniquepid_002-1996,0.0
+cat__uniquepid_002-19979,0.0
+cat__uniquepid_002-19982,0.0
+cat__uniquepid_002-19989,0.0
+cat__uniquepid_002-2008,0.0
+cat__uniquepid_002-2011,0.0
+cat__uniquepid_002-2016,0.0
+cat__uniquepid_002-2018,0.0
+cat__uniquepid_002-2035,0.0
+cat__uniquepid_002-2039,0.0
+cat__uniquepid_002-2043,0.0
+cat__uniquepid_002-2049,0.0
+cat__uniquepid_002-2059,0.0
+cat__uniquepid_002-2089,0.0
+cat__uniquepid_002-2103,0.0
+cat__uniquepid_002-2122,0.0
+cat__uniquepid_002-2136,0.0
+cat__uniquepid_002-2149,0.0
+cat__uniquepid_002-2155,0.0
+cat__uniquepid_002-2159,0.0
+cat__uniquepid_002-2162,0.0
+cat__uniquepid_002-2164,0.0
+cat__uniquepid_002-2174,0.0
+cat__uniquepid_002-2177,0.0
+cat__uniquepid_002-2178,0.0
+cat__uniquepid_002-2181,0.0
+cat__uniquepid_002-2202,0.0
+cat__uniquepid_002-2206,0.0
+cat__uniquepid_002-2230,0.0
+cat__uniquepid_002-2234,0.0
+cat__uniquepid_002-2246,0.0
+cat__uniquepid_002-2258,0.0
+cat__uniquepid_002-2267,0.0
+cat__uniquepid_002-2290,0.0
+cat__uniquepid_002-2295,0.0
+cat__uniquepid_002-2308,0.0
+cat__uniquepid_002-2315,0.0
+cat__uniquepid_002-2316,0.0
+cat__uniquepid_002-2336,0.0
+cat__uniquepid_002-2356,0.0
+cat__uniquepid_002-2358,0.0
+cat__uniquepid_002-2373,0.0
+cat__uniquepid_002-2375,0.0
+cat__uniquepid_002-2379,0.0
+cat__uniquepid_002-2384,0.0
+cat__uniquepid_002-2388,0.0
+cat__uniquepid_002-2391,0.0
+cat__uniquepid_002-2408,0.0
+cat__uniquepid_002-2439,0.0
+cat__uniquepid_002-2455,0.0
+cat__uniquepid_002-2458,0.0
+cat__uniquepid_002-2462,0.0
+cat__uniquepid_002-2475,0.0
+cat__uniquepid_002-2488,0.0
+cat__uniquepid_002-2509,0.0
+cat__uniquepid_002-2510,0.0
+cat__uniquepid_002-2520,0.0
+cat__uniquepid_002-2521,0.0
+cat__uniquepid_002-2522,0.0
+cat__uniquepid_002-2524,0.0
+cat__uniquepid_002-2540,0.0
+cat__uniquepid_002-2545,0.0
+cat__uniquepid_002-2564,0.0
+cat__uniquepid_002-2565,0.0
+cat__uniquepid_002-2569,0.0
+cat__uniquepid_002-2574,0.0
+cat__uniquepid_002-2577,0.0
+cat__uniquepid_002-2586,0.0
+cat__uniquepid_002-2587,0.0
+cat__uniquepid_002-2589,0.0
+cat__uniquepid_002-2603,0.0
+cat__uniquepid_002-2605,0.0
+cat__uniquepid_002-2634,0.0
+cat__uniquepid_002-2663,0.0
+cat__uniquepid_002-2664,0.0
+cat__uniquepid_002-2665,0.0
+cat__uniquepid_002-2666,0.0
+cat__uniquepid_002-2670,0.0
+cat__uniquepid_002-2695,0.0
+cat__uniquepid_002-2697,0.0
+cat__uniquepid_002-2709,0.0
+cat__uniquepid_002-2719,0.0
+cat__uniquepid_002-2724,0.0
+cat__uniquepid_002-2741,0.0
+cat__uniquepid_002-2761,0.0
+cat__uniquepid_002-2767,0.0
+cat__uniquepid_002-2770,0.0
+cat__uniquepid_002-2771,0.0
+cat__uniquepid_002-2775,0.0
+cat__uniquepid_002-2805,0.0
+cat__uniquepid_002-2809,0.0
+cat__uniquepid_002-2814,0.0
+cat__uniquepid_002-2815,0.0
+cat__uniquepid_002-2818,0.0
+cat__uniquepid_002-2820,0.0
+cat__uniquepid_002-2828,0.0
+cat__uniquepid_002-2830,0.0
+cat__uniquepid_002-2837,0.0
+cat__uniquepid_002-2838,0.0
+cat__uniquepid_002-2854,0.0
+cat__uniquepid_002-2858,0.0
+cat__uniquepid_002-2872,0.0
+cat__uniquepid_002-2877,0.0
+cat__uniquepid_002-2893,0.0
+cat__uniquepid_002-2917,0.0
+cat__uniquepid_002-2922,0.0
+cat__uniquepid_002-2924,0.0
+cat__uniquepid_002-2926,0.0
+cat__uniquepid_002-2935,0.0
+cat__uniquepid_002-2967,0.0
+cat__uniquepid_002-2969,0.0
+cat__uniquepid_002-2979,0.0
+cat__uniquepid_002-2985,0.0
+cat__uniquepid_002-3008,0.0
+cat__uniquepid_002-3017,0.0
+cat__uniquepid_002-3026,0.0
+cat__uniquepid_002-3036,0.0
+cat__uniquepid_002-3045,0.0
+cat__uniquepid_002-3053,0.0
+cat__uniquepid_002-3057,0.0
+cat__uniquepid_002-3070,0.0
+cat__uniquepid_002-3094,0.0
+cat__uniquepid_002-3097,0.0
+cat__uniquepid_002-3124,0.0
+cat__uniquepid_002-3128,0.0
+cat__uniquepid_002-3143,0.0
+cat__uniquepid_002-3151,0.0
+cat__uniquepid_002-3161,0.0
+cat__uniquepid_002-3178,0.0
+cat__uniquepid_002-3201,0.0
+cat__uniquepid_002-3206,0.0
+cat__uniquepid_002-3209,0.0
+cat__uniquepid_002-3226,0.0
+cat__uniquepid_002-3233,0.0
+cat__uniquepid_002-3245,0.0
+cat__uniquepid_002-3254,0.0
+cat__uniquepid_002-3269,0.0
+cat__uniquepid_002-3273,0.0
+cat__uniquepid_002-3309,0.0
+cat__uniquepid_002-3312,0.0
+cat__uniquepid_002-3321,0.0
+cat__uniquepid_002-3325,0.0
+cat__uniquepid_002-3333,0.0
+cat__uniquepid_002-3362,0.0
+cat__uniquepid_002-3370,0.0
+cat__uniquepid_002-3377,0.0
+cat__uniquepid_002-3384,0.0
+cat__uniquepid_002-3385,0.0
+cat__uniquepid_002-3415,0.0
+cat__uniquepid_002-3419,0.0
+cat__uniquepid_002-3421,0.0
+cat__uniquepid_002-3427,0.0
+cat__uniquepid_002-3443,0.0
+cat__uniquepid_002-3451,0.0
+cat__uniquepid_002-3470,0.0
+cat__uniquepid_002-3479,0.0
+cat__uniquepid_002-3503,0.0
+cat__uniquepid_002-3507,0.0
+cat__uniquepid_002-3511,0.0
+cat__uniquepid_002-3514,0.0
+cat__uniquepid_002-3515,0.0
+cat__uniquepid_002-3525,0.0
+cat__uniquepid_002-3535,0.0
+cat__uniquepid_002-3539,0.0
+cat__uniquepid_002-3550,0.0
+cat__uniquepid_002-3552,0.0
+cat__uniquepid_002-3553,0.0
+cat__uniquepid_002-3563,0.0
+cat__uniquepid_002-3566,0.0
+cat__uniquepid_002-3572,0.0
+cat__uniquepid_002-3582,0.0
+cat__uniquepid_002-3602,0.0
+cat__uniquepid_002-3614,0.0
+cat__uniquepid_002-3637,0.0
+cat__uniquepid_002-3677,0.0
+cat__uniquepid_002-3685,0.0
+cat__uniquepid_002-3693,0.0
+cat__uniquepid_002-3705,0.0
+cat__uniquepid_002-3707,0.0
+cat__uniquepid_002-3725,0.0
+cat__uniquepid_002-3731,0.0
+cat__uniquepid_002-3732,0.0
+cat__uniquepid_002-3747,0.0
+cat__uniquepid_002-3787,0.0
+cat__uniquepid_002-3789,0.0
+cat__uniquepid_002-3792,0.0
+cat__uniquepid_002-3794,0.0
+cat__uniquepid_002-3807,0.0
+cat__uniquepid_002-3827,0.0
+cat__uniquepid_002-3833,0.0
+cat__uniquepid_002-3841,0.0
+cat__uniquepid_002-3848,0.0
+cat__uniquepid_002-3868,0.0
+cat__uniquepid_002-3869,0.0
+cat__uniquepid_002-3878,0.0
+cat__uniquepid_002-3885,0.0
+cat__uniquepid_002-3899,0.0
+cat__uniquepid_002-3903,0.0
+cat__uniquepid_002-3908,0.0
+cat__uniquepid_002-3916,0.0
+cat__uniquepid_002-3920,0.0
+cat__uniquepid_002-3923,0.0
+cat__uniquepid_002-3926,0.0
+cat__uniquepid_002-3937,0.0
+cat__uniquepid_002-3952,0.0
+cat__uniquepid_002-3966,0.0
+cat__uniquepid_002-3968,0.0
+cat__uniquepid_002-3978,0.0
+cat__uniquepid_002-3981,0.0
+cat__uniquepid_002-3996,0.0
+cat__uniquepid_002-4005,0.0
+cat__uniquepid_002-4008,0.0
+cat__uniquepid_002-4010,0.0
+cat__uniquepid_002-4011,0.0
+cat__uniquepid_002-4016,0.0
+cat__uniquepid_002-4017,0.0
+cat__uniquepid_002-4035,0.0
+cat__uniquepid_002-4050,0.0
+cat__uniquepid_002-4067,0.0
+cat__uniquepid_002-4068,0.0
+cat__uniquepid_002-4073,0.0
+cat__uniquepid_002-4078,0.0
+cat__uniquepid_002-4091,0.0
+cat__uniquepid_002-4097,0.0
+cat__uniquepid_002-4098,0.0
+cat__uniquepid_002-4106,0.0
+cat__uniquepid_002-4108,0.0
+cat__uniquepid_002-4139,0.0
+cat__uniquepid_002-4153,0.0
+cat__uniquepid_002-4158,0.0
+cat__uniquepid_002-4164,0.0
+cat__uniquepid_002-4168,0.0
+cat__uniquepid_002-4170,0.0
+cat__uniquepid_002-4184,0.0
+cat__uniquepid_002-4185,0.0
+cat__uniquepid_002-4190,0.0
+cat__uniquepid_002-4207,0.0
+cat__uniquepid_002-4230,0.0
+cat__uniquepid_002-4252,0.0
+cat__uniquepid_002-4259,0.0
+cat__uniquepid_002-4273,0.0
+cat__uniquepid_002-4292,0.0
+cat__uniquepid_002-4300,0.0
+cat__uniquepid_002-4318,0.0
+cat__uniquepid_002-4328,0.0
+cat__uniquepid_002-4337,0.0
+cat__uniquepid_002-4372,0.0
+cat__uniquepid_002-4395,0.0
+cat__uniquepid_002-4406,0.0
+cat__uniquepid_002-4412,0.0
+cat__uniquepid_002-4414,0.0
+cat__uniquepid_002-4415,0.0
+cat__uniquepid_002-4449,0.0
+cat__uniquepid_002-4452,0.0
+cat__uniquepid_002-4454,0.0
+cat__uniquepid_002-4463,0.0
+cat__uniquepid_002-4477,0.0
+cat__uniquepid_002-4480,0.0
+cat__uniquepid_002-4481,0.0
+cat__uniquepid_002-4516,0.0
+cat__uniquepid_002-4525,0.0
+cat__uniquepid_002-4531,0.0
+cat__uniquepid_002-4538,0.0
+cat__uniquepid_002-4541,0.0
+cat__uniquepid_002-4551,0.0
+cat__uniquepid_002-4565,0.0
+cat__uniquepid_002-4573,0.0
+cat__uniquepid_002-4595,0.0
+cat__uniquepid_002-4603,0.0
+cat__uniquepid_002-4613,0.0
+cat__uniquepid_002-4622,0.0
+cat__uniquepid_002-4623,0.0
+cat__uniquepid_002-4628,0.0
+cat__uniquepid_002-4629,0.0
+cat__uniquepid_002-4631,0.0
+cat__uniquepid_002-4654,0.0
+cat__uniquepid_002-4659,0.0
+cat__uniquepid_002-4666,0.0
+cat__uniquepid_002-4671,0.0
+cat__uniquepid_002-4675,0.0
+cat__uniquepid_002-4711,0.0
+cat__uniquepid_002-4716,0.0
+cat__uniquepid_002-4719,0.0
+cat__uniquepid_002-4725,0.0
+cat__uniquepid_002-4740,0.0
+cat__uniquepid_002-4758,0.0
+cat__uniquepid_002-4807,0.0
+cat__uniquepid_002-4808,0.0
+cat__uniquepid_002-4813,0.0
+cat__uniquepid_002-4820,0.0
+cat__uniquepid_002-4851,0.0
+cat__uniquepid_002-4853,0.0
+cat__uniquepid_002-4854,0.0
+cat__uniquepid_002-4859,0.0
+cat__uniquepid_002-4872,0.0
+cat__uniquepid_002-4876,0.0
+cat__uniquepid_002-4884,0.0
+cat__uniquepid_002-4887,0.0
+cat__uniquepid_002-4899,0.0
+cat__uniquepid_002-4926,0.0
+cat__uniquepid_002-4967,0.0
+cat__uniquepid_002-4975,0.0
+cat__uniquepid_002-4978,0.0
+cat__uniquepid_002-4990,0.0
+cat__uniquepid_002-5001,0.0
+cat__uniquepid_002-5010,0.0
+cat__uniquepid_002-5017,0.0
+cat__uniquepid_002-5018,0.0
+cat__uniquepid_002-5019,0.0
+cat__uniquepid_002-5028,0.0
+cat__uniquepid_002-5030,0.0
+cat__uniquepid_002-5035,0.0
+cat__uniquepid_002-5037,0.0
+cat__uniquepid_002-5043,0.0
+cat__uniquepid_002-5047,0.0
+cat__uniquepid_002-5057,0.0
+cat__uniquepid_002-5058,0.0
+cat__uniquepid_002-5065,0.0
+cat__uniquepid_002-5073,0.0
+cat__uniquepid_002-5082,0.0
+cat__uniquepid_002-5085,0.0
+cat__uniquepid_002-5100,0.0
+cat__uniquepid_002-5106,0.0
+cat__uniquepid_002-5111,0.0
+cat__uniquepid_002-5139,0.0
+cat__uniquepid_002-5149,0.0
+cat__uniquepid_002-5166,0.0
+cat__uniquepid_002-5171,0.0
+cat__uniquepid_002-5173,0.0
+cat__uniquepid_002-5207,0.0
+cat__uniquepid_002-5210,0.0
+cat__uniquepid_002-5218,0.0
+cat__uniquepid_002-5220,0.0
+cat__uniquepid_002-5227,0.0
+cat__uniquepid_002-5230,0.0
+cat__uniquepid_002-5244,0.0
+cat__uniquepid_002-5257,0.0
+cat__uniquepid_002-5263,0.0
+cat__uniquepid_002-5269,0.0
+cat__uniquepid_002-5271,0.0
+cat__uniquepid_002-5279,0.0
+cat__uniquepid_002-5286,0.0
+cat__uniquepid_002-5299,0.0
+cat__uniquepid_002-5308,0.0
+cat__uniquepid_002-5324,0.0
+cat__uniquepid_002-5330,0.0
+cat__uniquepid_002-5340,0.0
+cat__uniquepid_002-5350,0.0
+cat__uniquepid_002-5370,0.0
+cat__uniquepid_002-5372,0.0
+cat__uniquepid_002-5401,0.0
+cat__uniquepid_002-5408,0.0
+cat__uniquepid_002-5410,0.0
+cat__uniquepid_002-5423,0.0
+cat__uniquepid_002-5424,0.0
+cat__uniquepid_002-5455,0.0
+cat__uniquepid_002-5459,0.0
+cat__uniquepid_002-5463,0.0
+cat__uniquepid_002-5481,0.0
+cat__uniquepid_002-5489,0.0
+cat__uniquepid_002-5492,0.0
+cat__uniquepid_002-5504,0.0
+cat__uniquepid_002-5521,0.0
+cat__uniquepid_002-5545,0.0
+cat__uniquepid_002-5560,0.0
+cat__uniquepid_002-5565,0.0
+cat__uniquepid_002-5578,0.0
+cat__uniquepid_002-5601,0.0
+cat__uniquepid_002-5623,0.0
+cat__uniquepid_002-5626,0.0
+cat__uniquepid_002-5652,0.0
+cat__uniquepid_002-5660,0.0
+cat__uniquepid_002-5669,0.0
+cat__uniquepid_002-5670,0.0
+cat__uniquepid_002-5671,0.0
+cat__uniquepid_002-5673,0.0
+cat__uniquepid_002-5678,0.0
+cat__uniquepid_002-5681,0.0
+cat__uniquepid_002-5687,0.0
+cat__uniquepid_002-5711,0.0
+cat__uniquepid_002-5712,0.0
+cat__uniquepid_002-5736,0.0
+cat__uniquepid_002-5739,0.0
+cat__uniquepid_002-5770,0.0
+cat__uniquepid_002-5774,0.0
+cat__uniquepid_002-5780,0.0
+cat__uniquepid_002-5804,0.0
+cat__uniquepid_002-5811,0.0
+cat__uniquepid_002-5828,0.0
+cat__uniquepid_002-5848,0.0
+cat__uniquepid_002-5849,0.0
+cat__uniquepid_002-5861,0.0
+cat__uniquepid_002-5873,0.0
+cat__uniquepid_002-5888,0.0
+cat__uniquepid_002-5891,0.0
+cat__uniquepid_002-5902,0.0
+cat__uniquepid_002-5921,0.0
+cat__uniquepid_002-5926,0.0
+cat__uniquepid_002-5936,0.0
+cat__uniquepid_002-5940,0.0
+cat__uniquepid_002-5945,0.0
+cat__uniquepid_002-5955,0.0
+cat__uniquepid_002-5995,0.0
+cat__uniquepid_002-5996,0.0
+cat__uniquepid_002-5997,0.0
+cat__uniquepid_002-6012,0.0
+cat__uniquepid_002-6021,0.0
+cat__uniquepid_002-6027,0.0
+cat__uniquepid_002-6039,0.0
+cat__uniquepid_002-6052,0.0
+cat__uniquepid_002-6057,0.0
+cat__uniquepid_002-6064,0.0
+cat__uniquepid_002-6071,0.0
+cat__uniquepid_002-6090,0.0
+cat__uniquepid_002-6098,0.0
+cat__uniquepid_002-6100,0.0
+cat__uniquepid_002-6105,0.0
+cat__uniquepid_002-6106,0.0
+cat__uniquepid_002-6113,0.0
+cat__uniquepid_002-6114,0.0
+cat__uniquepid_002-6128,0.0
+cat__uniquepid_002-6164,0.0
+cat__uniquepid_002-6193,0.0
+cat__uniquepid_002-6195,0.0
+cat__uniquepid_002-6202,0.0
+cat__uniquepid_002-6212,0.0
+cat__uniquepid_002-6214,0.0
+cat__uniquepid_002-6232,0.0
+cat__uniquepid_002-6249,0.0
+cat__uniquepid_002-6255,0.0
+cat__uniquepid_002-6257,0.0
+cat__uniquepid_002-6288,0.0
+cat__uniquepid_002-6290,0.0
+cat__uniquepid_002-6305,0.0
+cat__uniquepid_002-6327,0.0
+cat__uniquepid_002-6329,0.0
+cat__uniquepid_002-6330,0.0
+cat__uniquepid_002-6331,0.0
+cat__uniquepid_002-6357,0.0
+cat__uniquepid_002-6361,0.0
+cat__uniquepid_002-6363,0.0
+cat__uniquepid_002-6375,0.0
+cat__uniquepid_002-6376,0.0
+cat__uniquepid_002-6388,0.0
+cat__uniquepid_002-6392,0.0
+cat__uniquepid_002-6405,0.0
+cat__uniquepid_002-6409,0.0
+cat__uniquepid_002-6420,0.0
+cat__uniquepid_002-6436,0.0
+cat__uniquepid_002-6453,0.0
+cat__uniquepid_002-6460,0.0
+cat__uniquepid_002-6472,0.0
+cat__uniquepid_002-6496,0.0
+cat__uniquepid_002-6497,0.0
+cat__uniquepid_002-6503,0.0
+cat__uniquepid_002-6507,0.0
+cat__uniquepid_002-6524,0.0
+cat__uniquepid_002-6533,0.0
+cat__uniquepid_002-6535,0.0
+cat__uniquepid_002-6555,0.0
+cat__uniquepid_002-6556,0.0
+cat__uniquepid_002-6578,0.0
+cat__uniquepid_002-6584,0.0
+cat__uniquepid_002-6591,0.0
+cat__uniquepid_002-6597,0.0
+cat__uniquepid_002-6600,0.0
+cat__uniquepid_002-6620,0.0
+cat__uniquepid_002-6635,0.0
+cat__uniquepid_002-6647,0.0
+cat__uniquepid_002-6656,0.0
+cat__uniquepid_002-6668,0.0
+cat__uniquepid_002-6672,0.0
+cat__uniquepid_002-6677,0.0
+cat__uniquepid_002-6686,0.0
+cat__uniquepid_002-6690,0.0
+cat__uniquepid_002-6693,0.0
+cat__uniquepid_002-6694,0.0
+cat__uniquepid_002-6699,0.0
+cat__uniquepid_002-6706,0.0
+cat__uniquepid_002-6712,0.0
+cat__uniquepid_002-6713,0.0
+cat__uniquepid_002-6715,0.0
+cat__uniquepid_002-6722,0.0
+cat__uniquepid_002-6736,0.0
+cat__uniquepid_002-6740,0.0
+cat__uniquepid_002-6753,0.0
+cat__uniquepid_002-6758,0.0
+cat__uniquepid_002-6766,0.0
+cat__uniquepid_002-6779,0.0
+cat__uniquepid_002-6780,0.0
+cat__uniquepid_002-6781,0.0
+cat__uniquepid_002-6782,0.0
+cat__uniquepid_002-6783,0.0
+cat__uniquepid_002-6805,0.0
+cat__uniquepid_002-6814,0.0
+cat__uniquepid_002-6835,0.0
+cat__uniquepid_002-6836,0.0
+cat__uniquepid_002-6838,0.0
+cat__uniquepid_002-6862,0.0
+cat__uniquepid_002-6866,0.0
+cat__uniquepid_002-6870,0.0
+cat__uniquepid_002-6874,0.0
+cat__uniquepid_002-6875,0.0
+cat__uniquepid_002-6876,0.0
+cat__uniquepid_002-6884,0.0
+cat__uniquepid_002-6892,0.0
+cat__uniquepid_002-6904,0.0
+cat__uniquepid_002-6907,0.0
+cat__uniquepid_002-6908,0.0
+cat__uniquepid_002-6929,0.0
+cat__uniquepid_002-6942,0.0
+cat__uniquepid_002-6945,0.0
+cat__uniquepid_002-6946,0.0
+cat__uniquepid_002-6953,0.0
+cat__uniquepid_002-6969,0.0
+cat__uniquepid_002-6979,0.0
+cat__uniquepid_002-6991,0.0
+cat__uniquepid_002-6995,0.0
+cat__uniquepid_002-7008,0.0
+cat__uniquepid_002-7009,0.0
+cat__uniquepid_002-7015,0.0
+cat__uniquepid_002-7018,0.0
+cat__uniquepid_002-7028,0.0
+cat__uniquepid_002-7031,0.0
+cat__uniquepid_002-7046,0.0
+cat__uniquepid_002-7048,0.0
+cat__uniquepid_002-7049,0.0
+cat__uniquepid_002-7053,0.0
+cat__uniquepid_002-7104,0.0
+cat__uniquepid_002-7105,0.0
+cat__uniquepid_002-7157,0.0
+cat__uniquepid_002-7212,0.0
+cat__uniquepid_002-7227,0.0
+cat__uniquepid_002-7237,0.0
+cat__uniquepid_002-7271,0.0
+cat__uniquepid_002-7290,0.0
+cat__uniquepid_002-7295,0.0
+cat__uniquepid_002-7298,0.0
+cat__uniquepid_002-7315,0.0
+cat__uniquepid_002-7348,0.0
+cat__uniquepid_002-7362,0.0
+cat__uniquepid_002-7374,0.0
+cat__uniquepid_002-7378,0.0
+cat__uniquepid_002-7385,0.0
+cat__uniquepid_002-7398,0.0
+cat__uniquepid_002-7405,0.0
+cat__uniquepid_002-7408,0.0
+cat__uniquepid_002-7430,0.0
+cat__uniquepid_002-7438,0.0
+cat__uniquepid_002-7445,0.0
+cat__uniquepid_002-7464,0.0
+cat__uniquepid_002-7489,0.0
+cat__uniquepid_002-7493,0.0
+cat__uniquepid_002-7494,0.0
+cat__uniquepid_002-7518,0.0
+cat__uniquepid_002-7531,0.0
+cat__uniquepid_002-7539,0.0
+cat__uniquepid_002-7542,0.0
+cat__uniquepid_002-7545,0.0
+cat__uniquepid_002-7566,0.0
+cat__uniquepid_002-7568,0.0
+cat__uniquepid_002-7573,0.0
+cat__uniquepid_002-7574,0.0
+cat__uniquepid_002-7577,0.0
+cat__uniquepid_002-7582,0.0
+cat__uniquepid_002-7592,0.0
+cat__uniquepid_002-7594,0.0
+cat__uniquepid_002-7600,0.0
+cat__uniquepid_002-7636,0.0
+cat__uniquepid_002-7657,0.0
+cat__uniquepid_002-7662,0.0
+cat__uniquepid_002-7682,0.0
+cat__uniquepid_002-7703,0.0
+cat__uniquepid_002-7704,0.0
+cat__uniquepid_002-7711,0.0
+cat__uniquepid_002-7729,0.0
+cat__uniquepid_002-7735,0.0
+cat__uniquepid_002-7741,0.0
+cat__uniquepid_002-7744,0.0
+cat__uniquepid_002-7746,0.0
+cat__uniquepid_002-7748,0.0
+cat__uniquepid_002-7751,0.0
+cat__uniquepid_002-7758,0.0
+cat__uniquepid_002-7761,0.0
+cat__uniquepid_002-7783,0.0
+cat__uniquepid_002-7792,0.0
+cat__uniquepid_002-7820,0.0
+cat__uniquepid_002-7839,0.0
+cat__uniquepid_002-7858,0.0
+cat__uniquepid_002-7866,0.0
+cat__uniquepid_002-7871,0.0
+cat__uniquepid_002-7876,0.0
+cat__uniquepid_002-7886,0.0
+cat__uniquepid_002-7890,0.0
+cat__uniquepid_002-7896,0.0
+cat__uniquepid_002-7906,0.0
+cat__uniquepid_002-7912,0.0
+cat__uniquepid_002-7918,0.0
+cat__uniquepid_002-7928,0.0
+cat__uniquepid_002-7933,0.0
+cat__uniquepid_002-7940,0.0
+cat__uniquepid_002-7942,0.0
+cat__uniquepid_002-7962,0.0
+cat__uniquepid_002-7963,0.0
+cat__uniquepid_002-7966,0.0
+cat__uniquepid_002-8019,0.0
+cat__uniquepid_002-8055,0.0
+cat__uniquepid_002-8057,0.0
+cat__uniquepid_002-8061,0.0
+cat__uniquepid_002-8064,0.0
+cat__uniquepid_002-8070,0.0
+cat__uniquepid_002-8081,0.0
+cat__uniquepid_002-8086,0.0
+cat__uniquepid_002-8132,0.0
+cat__uniquepid_002-8135,0.0
+cat__uniquepid_002-8148,0.0
+cat__uniquepid_002-8161,0.0
+cat__uniquepid_002-8162,0.0
+cat__uniquepid_002-8185,0.0
+cat__uniquepid_002-8215,0.0
+cat__uniquepid_002-8217,0.0
+cat__uniquepid_002-8218,0.0
+cat__uniquepid_002-8249,0.0
+cat__uniquepid_002-8293,0.0
+cat__uniquepid_002-8302,0.0
+cat__uniquepid_002-8304,0.0
+cat__uniquepid_002-8317,0.0
+cat__uniquepid_002-8331,0.0
+cat__uniquepid_002-8334,0.0
+cat__uniquepid_002-8340,0.0
+cat__uniquepid_002-8348,0.0
+cat__uniquepid_002-8368,0.0
+cat__uniquepid_002-8369,0.0
+cat__uniquepid_002-8375,0.0
+cat__uniquepid_002-8391,0.0
+cat__uniquepid_002-8393,0.0
+cat__uniquepid_002-8422,0.0
+cat__uniquepid_002-8424,0.0
+cat__uniquepid_002-8442,0.0
+cat__uniquepid_002-8450,0.0
+cat__uniquepid_002-8451,0.0
+cat__uniquepid_002-8452,0.0
+cat__uniquepid_002-8457,0.0
+cat__uniquepid_002-8463,0.0
+cat__uniquepid_002-8467,0.0
+cat__uniquepid_002-8474,0.0
+cat__uniquepid_002-8476,0.0
+cat__uniquepid_002-8480,0.0
+cat__uniquepid_002-8493,0.0
+cat__uniquepid_002-8512,0.0
+cat__uniquepid_002-8517,0.0
+cat__uniquepid_002-8524,0.0
+cat__uniquepid_002-8534,0.0
+cat__uniquepid_002-8538,0.0
+cat__uniquepid_002-8556,0.0
+cat__uniquepid_002-8558,0.0
+cat__uniquepid_002-8584,0.0
+cat__uniquepid_002-8588,0.0
+cat__uniquepid_002-8613,0.0
+cat__uniquepid_002-8617,0.0
+cat__uniquepid_002-8631,0.0
+cat__uniquepid_002-8635,0.0
+cat__uniquepid_002-8651,0.0
+cat__uniquepid_002-8654,0.0
+cat__uniquepid_002-8655,0.0
+cat__uniquepid_002-8656,0.0
+cat__uniquepid_002-8666,0.0
+cat__uniquepid_002-8670,0.0
+cat__uniquepid_002-8671,0.0
+cat__uniquepid_002-8676,0.0
+cat__uniquepid_002-8679,0.0
+cat__uniquepid_002-8706,0.0
+cat__uniquepid_002-8720,0.0
+cat__uniquepid_002-8724,0.0
+cat__uniquepid_002-8729,0.0
+cat__uniquepid_002-8739,0.0
+cat__uniquepid_002-8741,0.0
+cat__care_plan_following_discharge_Support Group; Psychiatric Follow-up; Addiction Counseling,0.0
+cat__uniquepid_002-8752,0.0
+cat__uniquepid_002-8753,0.0
+cat__uniquepid_002-8755,0.0
+cat__uniquepid_002-8762,0.0
+cat__uniquepid_002-8763,0.0
+cat__uniquepid_002-8772,0.0
+cat__uniquepid_002-8774,0.0
+cat__uniquepid_002-8790,0.0
+cat__uniquepid_002-8807,0.0
+cat__uniquepid_002-8818,0.0
+cat__uniquepid_002-8823,0.0
+cat__uniquepid_002-8841,0.0
+cat__uniquepid_002-8848,0.0
+cat__uniquepid_002-8867,0.0
+cat__uniquepid_002-8876,0.0
+cat__uniquepid_002-8883,0.0
+cat__uniquepid_002-8891,0.0
+cat__uniquepid_002-8897,0.0
+cat__uniquepid_002-8924,0.0
+cat__uniquepid_002-8935,0.0
+cat__uniquepid_002-8945,0.0
+cat__uniquepid_002-8950,0.0
+cat__uniquepid_002-8962,0.0
+cat__uniquepid_002-8967,0.0
+cat__uniquepid_002-8981,0.0
+cat__uniquepid_002-8997,0.0
+cat__uniquepid_002-9003,0.0
+cat__uniquepid_002-9010,0.0
+cat__uniquepid_002-9016,0.0
+cat__uniquepid_002-9025,0.0
+cat__uniquepid_002-9027,0.0
+cat__uniquepid_002-9030,0.0
+cat__uniquepid_002-9038,0.0
+cat__uniquepid_002-9070,0.0
+cat__uniquepid_002-9077,0.0
+cat__uniquepid_002-9081,0.0
+cat__uniquepid_002-9091,0.0
+cat__uniquepid_002-9107,0.0
+cat__uniquepid_002-9108,0.0
+cat__uniquepid_002-9121,0.0
+cat__uniquepid_002-9138,0.0
+cat__uniquepid_002-9144,0.0
+cat__uniquepid_002-9169,0.0
+cat__uniquepid_002-9190,0.0
+cat__care_plan_following_discharge_Surgical Follow-up; Wound Care; Pain Management,0.0
+cat__uniquepid_002-9207,0.0
+cat__uniquepid_002-9210,0.0
+cat__uniquepid_002-9221,0.0
+cat__uniquepid_002-9231,0.0
+cat__uniquepid_002-9235,0.0
+cat__uniquepid_002-9241,0.0
+cat__uniquepid_002-9253,0.0
+cat__uniquepid_002-9280,0.0
+cat__uniquepid_002-9288,0.0
+cat__uniquepid_002-9291,0.0
+cat__uniquepid_002-9300,0.0
+cat__uniquepid_002-9303,0.0
+cat__uniquepid_002-9307,0.0
+cat__uniquepid_002-9325,0.0
+cat__uniquepid_002-9327,0.0
+cat__uniquepid_002-9335,0.0
+cat__uniquepid_002-9360,0.0
+cat__uniquepid_002-9361,0.0
+cat__uniquepid_002-9384,0.0
+cat__uniquepid_002-9390,0.0
+cat__uniquepid_002-9401,0.0
+cat__uniquepid_002-9411,0.0
+cat__uniquepid_002-9415,0.0
+cat__uniquepid_002-9419,0.0
+cat__uniquepid_002-9425,0.0
+cat__uniquepid_002-9428,0.0
+cat__uniquepid_002-9445,0.0
+cat__uniquepid_002-9467,0.0
+cat__uniquepid_002-9492,0.0
+cat__uniquepid_002-9504,0.0
+cat__uniquepid_002-9522,0.0
+cat__uniquepid_002-9524,0.0
+cat__uniquepid_002-9526,0.0
+cat__uniquepid_002-9544,0.0
+cat__uniquepid_002-9569,0.0
+cat__uniquepid_002-9576,0.0
+cat__uniquepid_002-9577,0.0
+cat__uniquepid_002-9585,0.0
+cat__uniquepid_002-9603,0.0
+cat__uniquepid_002-9611,0.0
+cat__uniquepid_002-9620,0.0
+cat__uniquepid_002-9622,0.0
+cat__uniquepid_002-9625,0.0
+cat__uniquepid_002-9628,0.0
+cat__uniquepid_002-9635,0.0
+cat__uniquepid_002-9636,0.0
+cat__uniquepid_002-9639,0.0
+cat__uniquepid_002-9650,0.0
+cat__uniquepid_002-9654,0.0
+cat__uniquepid_002-9688,0.0
+cat__uniquepid_002-9698,0.0
+cat__uniquepid_002-9701,0.0
+cat__uniquepid_002-9715,0.0
+cat__uniquepid_002-9716,0.0
+cat__uniquepid_002-9727,0.0
+cat__uniquepid_002-9755,0.0
+cat__uniquepid_002-9767,0.0
+cat__uniquepid_002-9776,0.0
+cat__uniquepid_002-9791,0.0
+cat__uniquepid_002-9800,0.0
+cat__uniquepid_002-9817,0.0
+cat__uniquepid_002-9828,0.0
+cat__uniquepid_002-9838,0.0
+cat__uniquepid_002-9839,0.0
+cat__uniquepid_002-9878,0.0
+cat__uniquepid_002-9886,0.0
+cat__uniquepid_002-9895,0.0
+cat__uniquepid_002-9907,0.0
+cat__uniquepid_002-9909,0.0
+cat__uniquepid_002-9910,0.0
+cat__uniquepid_002-9911,0.0
+cat__uniquepid_002-9942,0.0
+cat__uniquepid_002-9945,0.0
+cat__uniquepid_002-9967,0.0
+cat__uniquepid_002-9970,0.0
+cat__uniquepid_002-9976,0.0
+cat__uniquepid_003-1,0.0
+cat__uniquepid_003-10080,0.0
+cat__uniquepid_003-10122,0.0
+cat__uniquepid_003-10228,0.0
+cat__uniquepid_003-10235,0.0
+cat__uniquepid_003-1025,0.0
+cat__uniquepid_003-10264,0.0
+cat__uniquepid_003-1035,0.0
+cat__uniquepid_003-10368,0.0
+cat__uniquepid_003-10409,0.0
+cat__uniquepid_003-10438,0.0
+cat__uniquepid_003-10465,0.0
+cat__uniquepid_003-10470,0.0
+cat__uniquepid_003-10472,0.0
+cat__uniquepid_003-10490,0.0
+cat__uniquepid_003-10493,0.0
+cat__uniquepid_003-10531,0.0
+cat__uniquepid_003-10535,0.0
+cat__uniquepid_003-10593,0.0
+cat__uniquepid_003-10606,0.0
+cat__uniquepid_003-10614,0.0
+cat__uniquepid_003-10620,0.0
+cat__uniquepid_003-10648,0.0
+cat__uniquepid_003-10673,0.0
+cat__uniquepid_003-10885,0.0
+cat__uniquepid_003-1092,0.0
+cat__uniquepid_003-10941,0.0
+cat__uniquepid_003-10966,0.0
+cat__uniquepid_003-10970,0.0
+cat__uniquepid_003-10982,0.0
+cat__uniquepid_003-11088,0.0
+cat__uniquepid_003-1111,0.0
+cat__uniquepid_003-11127,0.0
+cat__uniquepid_003-11183,0.0
+cat__uniquepid_003-11263,0.0
+cat__uniquepid_003-11288,0.0
+cat__uniquepid_003-11313,0.0
+cat__uniquepid_003-11314,0.0
+cat__uniquepid_003-11330,0.0
+cat__uniquepid_003-11349,0.0
+cat__uniquepid_003-11377,0.0
+cat__uniquepid_003-11382,0.0
+cat__uniquepid_003-1145,0.0
+cat__uniquepid_003-11489,0.0
+cat__uniquepid_003-11513,0.0
+cat__uniquepid_003-11540,0.0
+cat__uniquepid_002-10009,0.0
+cat__uniquepid_002-13902,0.0
+cat__uniquepid_002-13913,0.0
+cat__uniquepid_002-13932,0.0
+cat__uniquepid_002-13933,0.0
+cat__uniquepid_002-13944,0.0
+cat__uniquepid_002-13945,0.0
+cat__uniquepid_002-12150,0.0
+cat__uniquepid_002-12156,0.0
+cat__uniquepid_002-12157,0.0
+cat__uniquepid_002-12163,0.0
+cat__uniquepid_002-12180,0.0
+cat__uniquepid_002-12190,0.0
+cat__uniquepid_002-12191,0.0
+cat__uniquepid_002-12194,0.0
+cat__uniquepid_002-12212,0.0
+cat__uniquepid_002-12213,0.0
+cat__uniquepid_003-1165,0.0
+cat__uniquepid_003-11657,0.0
+cat__uniquepid_003-1168,0.0
+cat__uniquepid_003-11735,0.0
+cat__uniquepid_003-11806,0.0
+cat__uniquepid_003-11846,0.0
+cat__uniquepid_003-12017,0.0
+cat__uniquepid_003-12079,0.0
+cat__uniquepid_003-12237,0.0
+cat__uniquepid_003-12384,0.0
+cat__uniquepid_003-12469,0.0
+cat__uniquepid_003-12500,0.0
+cat__uniquepid_003-12532,0.0
+cat__uniquepid_003-12629,0.0
+cat__uniquepid_003-12650,0.0
+cat__uniquepid_003-12728,0.0
+cat__uniquepid_003-12865,0.0
+cat__uniquepid_003-12884,0.0
+cat__care_plan_following_discharge_Wound Care; Surgical Follow-up; Pain Management,0.0
+cat__uniquepid_003-13176,0.0
+cat__uniquepid_003-13226,0.0
+cat__uniquepid_003-13362,0.0
+cat__uniquepid_003-13414,0.0
+cat__uniquepid_003-13532,0.0
+cat__uniquepid_003-13613,0.0
+cat__uniquepid_003-13675,0.0
+cat__uniquepid_003-13720,0.0
+cat__uniquepid_003-13764,0.0
+cat__uniquepid_003-13765,0.0
+cat__uniquepid_003-13928,0.0
+cat__uniquepid_003-13987,0.0
+cat__uniquepid_002-12027,0.0
+cat__uniquepid_002-12037,0.0
+cat__uniquepid_002-12061,0.0
+cat__uniquepid_002-12064,0.0
+cat__uniquepid_002-12079,0.0
+cat__uniquepid_002-12084,0.0
+cat__uniquepid_002-12101,0.0
+cat__uniquepid_002-12106,0.0
+cat__uniquepid_002-12112,0.0
+cat__uniquepid_002-12117,0.0
+cat__uniquepid_002-12119,0.0
+cat__uniquepid_002-12120,0.0
+cat__uniquepid_002-12126,0.0
+cat__uniquepid_002-12134,0.0
+cat__uniquepid_002-12139,0.0
+cat__uniquepid_002-12144,0.0
+cat__uniquepid_003-1401,0.0
+cat__uniquepid_003-14011,0.0
+cat__uniquepid_003-14048,0.0
+cat__uniquepid_003-14100,0.0
+cat__uniquepid_003-1420,0.0
+cat__uniquepid_003-14211,0.0
+cat__uniquepid_003-14288,0.0
+cat__uniquepid_003-143,0.0
+cat__uniquepid_003-14454,0.0
+cat__uniquepid_003-14605,0.0
+cat__uniquepid_003-14617,0.0
+cat__uniquepid_003-1473,0.0
+cat__uniquepid_003-14795,0.0
+cat__uniquepid_003-14838,0.0
+cat__uniquepid_003-15055,0.0
+cat__uniquepid_003-15083,0.0
+cat__uniquepid_003-15183,0.0
+cat__uniquepid_003-15240,0.0
+cat__uniquepid_003-15358,0.0
+cat__uniquepid_003-15546,0.0
+cat__uniquepid_003-15741,0.0
+cat__uniquepid_003-15747,0.0
+cat__uniquepid_003-1579,0.0
+cat__uniquepid_003-15901,0.0
+cat__uniquepid_003-1599,0.0
+cat__uniquepid_003-16144,0.0
+cat__uniquepid_003-16257,0.0
+cat__uniquepid_003-16299,0.0
+cat__uniquepid_003-16531,0.0
+cat__uniquepid_003-16542,0.0
+cat__uniquepid_003-16559,0.0
+cat__uniquepid_003-16729,0.0
+cat__uniquepid_003-16753,0.0
+cat__uniquepid_003-16873,0.0
+cat__uniquepid_003-16905,0.0
+cat__uniquepid_003-1696,0.0
+cat__uniquepid_003-17003,0.0
+cat__uniquepid_003-17095,0.0
+cat__uniquepid_003-17096,0.0
+cat__uniquepid_003-17110,0.0
+cat__uniquepid_003-17142,0.0
+cat__uniquepid_003-17189,0.0
+cat__uniquepid_003-17267,0.0
+cat__uniquepid_003-1733,0.0
+cat__uniquepid_003-17537,0.0
+cat__uniquepid_003-17546,0.0
+cat__uniquepid_003-17645,0.0
+cat__uniquepid_003-1779,0.0
+cat__uniquepid_003-17804,0.0
+cat__uniquepid_003-17910,0.0
+cat__uniquepid_003-18086,0.0
+cat__uniquepid_003-1810,0.0
+cat__uniquepid_003-18123,0.0
+cat__uniquepid_003-18320,0.0
+cat__uniquepid_003-18891,0.0
+cat__uniquepid_003-19124,0.0
+cat__uniquepid_003-19191,0.0
+cat__uniquepid_003-19225,0.0
+cat__uniquepid_003-19375,0.0
+cat__uniquepid_003-19450,0.0
+cat__uniquepid_003-19464,0.0
+cat__uniquepid_003-20281,0.0
+cat__uniquepid_003-20538,0.0
+cat__uniquepid_003-20910,0.0
+cat__uniquepid_003-21082,0.0
+cat__uniquepid_003-211,0.0
+cat__uniquepid_003-21189,0.0
+cat__uniquepid_003-21200,0.0
+cat__uniquepid_003-21727,0.0
+cat__uniquepid_003-22420,0.0
+cat__uniquepid_003-22564,0.0
+cat__uniquepid_003-22692,0.0
+cat__uniquepid_003-23251,0.0
+cat__uniquepid_003-2337,0.0
+cat__uniquepid_003-23422,0.0
+cat__uniquepid_003-23451,0.0
+cat__uniquepid_003-23556,0.0
+cat__uniquepid_003-23699,0.0
+cat__uniquepid_003-23742,0.0
+cat__uniquepid_003-23810,0.0
+cat__uniquepid_003-2416,0.0
+cat__uniquepid_003-24358,0.0
+cat__uniquepid_003-25158,0.0
+cat__uniquepid_003-25461,0.0
+cat__uniquepid_003-25578,0.0
+cat__uniquepid_003-25818,0.0
+cat__uniquepid_003-26240,0.0
+cat__uniquepid_003-27464,0.0
+cat__uniquepid_003-28208,0.0
+cat__uniquepid_003-28612,0.0
+cat__uniquepid_003-29210,0.0
+cat__uniquepid_003-29330,0.0
+cat__uniquepid_003-30075,0.0
+cat__uniquepid_003-30348,0.0
+cat__uniquepid_003-31999,0.0
+cat__uniquepid_003-33488,0.0
+cat__uniquepid_003-3392,0.0
+cat__care_plan_following_discharge_Support Group,0.0
+cat__uniquepid_003-35027,0.0
+cat__uniquepid_003-3514,0.0
+cat__uniquepid_003-35263,0.0
+cat__uniquepid_003-36327,0.0
+cat__uniquepid_003-37839,0.0
+cat__uniquepid_003-38320,0.0
+cat__uniquepid_003-39148,0.0
+cat__uniquepid_003-40404,0.0
+cat__uniquepid_003-40649,0.0
+cat__uniquepid_003-41125,0.0
+cat__uniquepid_003-41452,0.0
+cat__uniquepid_003-42659,0.0
+cat__uniquepid_003-42924,0.0
+cat__uniquepid_003-44051,0.0
+cat__uniquepid_003-44499,0.0
+cat__uniquepid_003-4458,0.0
+cat__uniquepid_003-44806,0.0
+cat__uniquepid_003-45166,0.0
+cat__uniquepid_003-45696,0.0
+cat__uniquepid_003-46237,0.0
+cat__uniquepid_003-48490,0.0
+cat__uniquepid_003-48921,0.0
+cat__uniquepid_003-48943,0.0
+cat__uniquepid_003-49468,0.0
+cat__uniquepid_003-49978,0.0
+cat__uniquepid_003-51381,0.0
+cat__uniquepid_003-52380,0.0
+cat__uniquepid_003-53385,0.0
+cat__uniquepid_003-53522,0.0
+cat__uniquepid_003-53783,0.0
+cat__uniquepid_003-55331,0.0
+cat__uniquepid_003-55821,0.0
+cat__uniquepid_003-57176,0.0
+cat__uniquepid_003-57281,0.0
+cat__uniquepid_003-59082,0.0
+cat__uniquepid_003-59106,0.0
+cat__uniquepid_003-59811,0.0
+cat__uniquepid_003-60017,0.0
+cat__uniquepid_003-60300,0.0
+cat__uniquepid_003-7760,0.0
+cat__uniquepid_003-833,0.0
+cat__uniquepid_004-10008,0.0
+cat__uniquepid_004-10043,0.0
+cat__uniquepid_004-10053,0.0
+cat__uniquepid_004-10164,0.0
+cat__uniquepid_004-10208,0.0
+cat__uniquepid_004-10239,0.0
+cat__uniquepid_004-10245,0.0
+cat__uniquepid_004-10249,0.0
+cat__uniquepid_004-10383,0.0
+cat__uniquepid_004-104,0.0
+cat__uniquepid_004-10401,0.0
+cat__uniquepid_004-10484,0.0
+cat__uniquepid_004-10582,0.0
+cat__uniquepid_004-10616,0.0
+cat__uniquepid_004-10746,0.0
+cat__uniquepid_004-10848,0.0
+cat__uniquepid_004-10983,0.0
+cat__uniquepid_004-11094,0.0
+cat__uniquepid_004-11209,0.0
+cat__uniquepid_004-11210,0.0
+cat__uniquepid_004-11399,0.0
+cat__uniquepid_004-11409,0.0
+cat__uniquepid_004-11590,0.0
+cat__uniquepid_002-13783,0.0
+cat__uniquepid_002-13786,0.0
+cat__uniquepid_002-13788,0.0
+cat__uniquepid_002-1380,0.0
+cat__uniquepid_002-13800,0.0
+cat__uniquepid_002-13821,0.0
+cat__uniquepid_002-13829,0.0
+cat__uniquepid_002-13832,0.0
+cat__uniquepid_002-13835,0.0
+cat__uniquepid_002-13843,0.0
+cat__uniquepid_002-13850,0.0
+cat__uniquepid_002-13856,0.0
+cat__uniquepid_002-13872,0.0
+cat__uniquepid_002-13877,0.0
+cat__uniquepid_002-13896,0.0
+cat__uniquepid_002-13899,0.0
+cat__uniquepid_004-11601,0.0
+cat__uniquepid_004-11648,0.0
+cat__uniquepid_004-11660,0.0
+cat__uniquepid_004-11695,0.0
+cat__uniquepid_002-1242,0.0
+cat__uniquepid_004-11912,0.0
+cat__uniquepid_004-11919,0.0
+cat__uniquepid_004-11922,0.0
+cat__uniquepid_004-12039,0.0
+cat__uniquepid_004-12237,0.0
+cat__uniquepid_004-12293,0.0
+cat__uniquepid_004-12308,0.0
+cat__uniquepid_004-12501,0.0
+cat__uniquepid_004-12682,0.0
+cat__uniquepid_004-12710,0.0
+cat__uniquepid_004-12750,0.0
+cat__uniquepid_004-1280,0.0
+cat__uniquepid_004-12865,0.0
+cat__uniquepid_004-12917,0.0
+cat__uniquepid_004-12923,0.0
+cat__uniquepid_004-12982,0.0
+cat__uniquepid_004-131,0.0
+cat__uniquepid_004-13381,0.0
+cat__uniquepid_004-13479,0.0
+cat__uniquepid_004-14214,0.0
+cat__uniquepid_004-14604,0.0
+cat__uniquepid_004-15028,0.0
+cat__uniquepid_004-15387,0.0
+cat__uniquepid_004-1561,0.0
+cat__uniquepid_004-15613,0.0
+cat__uniquepid_004-15758,0.0
+cat__uniquepid_004-15763,0.0
+cat__uniquepid_004-15764,0.0
+cat__uniquepid_004-15849,0.0
+cat__uniquepid_004-1752,0.0
+cat__uniquepid_004-17851,0.0
+cat__uniquepid_004-18700,0.0
+cat__uniquepid_004-18760,0.0
+cat__uniquepid_004-18761,0.0
+cat__uniquepid_004-18980,0.0
+cat__uniquepid_004-19012,0.0
+cat__uniquepid_004-1923,0.0
+cat__uniquepid_004-19417,0.0
+cat__uniquepid_004-196,0.0
+cat__uniquepid_004-19802,0.0
+cat__uniquepid_004-20215,0.0
+cat__uniquepid_004-2026,0.0
+cat__uniquepid_004-20766,0.0
+cat__uniquepid_004-2112,0.0
+cat__uniquepid_004-21272,0.0
+cat__uniquepid_004-21366,0.0
+cat__uniquepid_004-21496,0.0
+cat__uniquepid_007-10000,0.0
+cat__uniquepid_007-10010,0.0
+cat__uniquepid_007-10012,0.0
+cat__uniquepid_007-10014,0.0
+cat__uniquepid_007-10020,0.0
+cat__uniquepid_007-10033,0.0
+cat__uniquepid_007-10035,0.0
+cat__uniquepid_007-1004,0.0
+cat__uniquepid_007-10042,0.0
+cat__uniquepid_007-10057,0.0
+cat__uniquepid_007-10061,0.0
+cat__uniquepid_007-10062,0.0
+cat__uniquepid_002-10013,0.0
+cat__uniquepid_007-10082,0.0
+cat__uniquepid_007-10086,0.0
+cat__uniquepid_007-10090,0.0
+cat__uniquepid_007-10094,0.0
+cat__uniquepid_007-10097,0.0
+cat__uniquepid_007-10102,0.0
+cat__uniquepid_007-10106,0.0
+cat__uniquepid_007-10110,0.0
+cat__uniquepid_007-10111,0.0
+cat__uniquepid_007-10114,0.0
+cat__uniquepid_007-1012,0.0
+cat__uniquepid_007-10128,0.0
+cat__uniquepid_007-10135,0.0
+cat__uniquepid_002-10019,0.0
+cat__uniquepid_002-11885,0.0
+cat__uniquepid_002-11909,0.0
+cat__uniquepid_002-10038,0.0
+cat__uniquepid_002-11919,0.0
+cat__uniquepid_002-11922,0.0
+cat__uniquepid_002-11932,0.0
+cat__uniquepid_002-11933,0.0
+cat__uniquepid_002-11942,0.0
+cat__uniquepid_002-11948,0.0
+cat__uniquepid_002-11967,0.0
+cat__uniquepid_002-11984,0.0
+cat__uniquepid_002-11992,0.0
+cat__uniquepid_002-11995,0.0
+cat__uniquepid_002-11999,0.0
+cat__uniquepid_002-12012,0.0
+cat__uniquepid_007-10151,0.0
+cat__uniquepid_007-10160,0.0
+cat__uniquepid_007-1017,0.0
+cat__uniquepid_007-10182,0.0
+cat__uniquepid_007-10187,0.0
+cat__uniquepid_007-10190,0.0
+cat__uniquepid_007-10193,0.0
+cat__uniquepid_007-10206,0.0
+cat__uniquepid_007-10229,0.0
+cat__uniquepid_007-10263,0.0
+cat__uniquepid_007-103,0.0
+cat__uniquepid_007-10302,0.0
+cat__uniquepid_007-10304,0.0
+cat__uniquepid_007-10306,0.0
+cat__uniquepid_007-1031,0.0
+cat__uniquepid_007-10317,0.0
+cat__uniquepid_007-10320,0.0
+cat__uniquepid_007-10326,0.0
+cat__uniquepid_007-10328,0.0
+cat__uniquepid_007-1034,0.0
+cat__uniquepid_007-10347,0.0
+cat__uniquepid_002-13650,0.0
+cat__uniquepid_002-13666,0.0
+cat__uniquepid_002-13675,0.0
+cat__uniquepid_002-13681,0.0
+cat__uniquepid_002-13683,0.0
+cat__uniquepid_002-13687,0.0
+cat__uniquepid_002-10043,0.0
+cat__uniquepid_002-13725,0.0
+cat__uniquepid_002-13737,0.0
+cat__uniquepid_002-13745,0.0
+cat__uniquepid_002-13748,0.0
+cat__uniquepid_002-1375,0.0
+cat__uniquepid_002-13753,0.0
+cat__uniquepid_007-10348,0.0
+cat__uniquepid_007-10353,0.0
+cat__uniquepid_007-10366,0.0
+cat__uniquepid_007-10369,0.0
+cat__uniquepid_007-10396,0.0
+cat__uniquepid_007-1041,0.0
+cat__uniquepid_007-10421,0.0
+cat__uniquepid_007-10429,0.0
+cat__uniquepid_007-10433,0.0
+cat__uniquepid_007-10444,0.0
+cat__uniquepid_007-10449,0.0
+cat__uniquepid_007-10451,0.0
+cat__uniquepid_007-10455,0.0
+cat__uniquepid_007-1046,0.0
+cat__uniquepid_007-10468,0.0
+cat__uniquepid_007-10491,0.0
+cat__uniquepid_007-10504,0.0
+cat__uniquepid_007-10508,0.0
+cat__uniquepid_007-10513,0.0
+cat__uniquepid_007-10515,0.0
+cat__uniquepid_007-10615,0.0
+cat__uniquepid_007-10629,0.0
+cat__uniquepid_007-10677,0.0
+cat__uniquepid_007-10678,0.0
+cat__uniquepid_002-10050,0.0
+cat__uniquepid_007-10695,0.0
+cat__uniquepid_007-10715,0.0
+cat__uniquepid_007-10717,0.0
+cat__uniquepid_007-10764,0.0
+cat__uniquepid_007-10766,0.0
+cat__uniquepid_007-10793,0.0
+cat__uniquepid_007-10794,0.0
+cat__uniquepid_007-10797,0.0
+cat__uniquepid_007-10800,0.0
+cat__uniquepid_007-10805,0.0
+cat__uniquepid_007-10813,0.0
+cat__uniquepid_007-10826,0.0
+cat__uniquepid_007-10833,0.0
+cat__uniquepid_007-10868,0.0
+cat__uniquepid_007-10869,0.0
+cat__uniquepid_002-10051,0.0
+cat__uniquepid_007-10894,0.0
+cat__uniquepid_007-1090,0.0
+cat__uniquepid_007-10904,0.0
+cat__uniquepid_002-10052,0.0
+cat__uniquepid_007-10943,0.0
+cat__uniquepid_007-10953,0.0
+cat__uniquepid_007-10957,0.0
+cat__uniquepid_007-10965,0.0
+cat__uniquepid_007-10974,0.0
+cat__uniquepid_007-10978,0.0
+cat__uniquepid_007-10988,0.0
+cat__uniquepid_007-10997,0.0
+cat__uniquepid_007-11008,0.0
+cat__uniquepid_007-11024,0.0
+cat__uniquepid_007-11027,0.0
+cat__uniquepid_007-11052,0.0
+cat__uniquepid_007-11053,0.0
+cat__uniquepid_007-11081,0.0
+cat__uniquepid_007-1109,0.0
+cat__uniquepid_007-11101,0.0
+cat__uniquepid_007-11103,0.0
+cat__uniquepid_007-11358,0.0
+cat__uniquepid_007-11385,0.0
+cat__uniquepid_002-1353,0.0
+cat__uniquepid_002-13533,0.0
+cat__uniquepid_002-13546,0.0
+cat__uniquepid_002-13561,0.0
+cat__uniquepid_002-13571,0.0
+cat__uniquepid_002-13575,0.0
+cat__uniquepid_002-13577,0.0
+cat__uniquepid_002-13580,0.0
+cat__uniquepid_002-1359,0.0
+cat__uniquepid_002-10055,0.0
+cat__uniquepid_002-13631,0.0
+cat__uniquepid_002-10057,0.0
+cat__uniquepid_002-13643,0.0
+cat__uniquepid_002-13648,0.0
+cat__uniquepid_002-1365,0.0
+cat__uniquepid_002-10063,0.0
+cat__uniquepid_007-11922,0.0
+cat__uniquepid_002-1007,0.0
+cat__uniquepid_007-1202,0.0
+cat__uniquepid_007-12199,0.0
+cat__uniquepid_007-1236,0.0
+cat__uniquepid_007-12435,0.0
+cat__care_plan_following_discharge_Smoking Cessation; Follow-up Pulmonology; Pulmonary Rehab,0.0
+cat__uniquepid_007-12584,0.0
+cat__uniquepid_007-12667,0.0
+cat__uniquepid_007-12708,0.0
+cat__uniquepid_008-1005,0.0
+cat__uniquepid_008-10107,0.0
+cat__uniquepid_008-10123,0.0
+cat__uniquepid_008-10139,0.0
+cat__uniquepid_008-10160,0.0
+cat__uniquepid_008-10214,0.0
+cat__uniquepid_008-10270,0.0
+cat__uniquepid_008-1028,0.0
+cat__uniquepid_008-10290,0.0
+cat__uniquepid_008-10323,0.0
+cat__uniquepid_008-10349,0.0
+cat__uniquepid_008-1035,0.0
+cat__uniquepid_008-10351,0.0
+cat__uniquepid_008-1037,0.0
+cat__uniquepid_008-10390,0.0
+cat__uniquepid_008-10403,0.0
+cat__uniquepid_008-10525,0.0
+cat__uniquepid_008-10555,0.0
+cat__uniquepid_008-10557,0.0
+cat__uniquepid_008-10559,0.0
+cat__uniquepid_008-10577,0.0
+cat__uniquepid_008-10579,0.0
+cat__uniquepid_008-10618,0.0
+cat__uniquepid_008-10651,0.0
+cat__uniquepid_008-10739,0.0
+cat__uniquepid_008-10761,0.0
+cat__uniquepid_008-10770,0.0
+cat__uniquepid_008-10840,0.0
+cat__uniquepid_008-1088,0.0
+cat__uniquepid_008-10881,0.0
+cat__uniquepid_009-10003,0.0
+cat__uniquepid_009-10008,0.0
+cat__uniquepid_009-10011,0.0
+cat__uniquepid_009-10017,0.0
+cat__uniquepid_009-10019,0.0
+cat__uniquepid_009-10021,0.0
+cat__uniquepid_009-10027,0.0
+cat__uniquepid_009-10036,0.0
+cat__care_plan_following_discharge_Smoking Cessation; Home O2 Therapy; Pulmonary Rehab,0.0
+cat__uniquepid_009-10047,0.0
+cat__uniquepid_009-10048,0.0
+cat__uniquepid_009-10056,0.0
+cat__uniquepid_009-10057,0.0
+cat__uniquepid_009-10062,0.0
+cat__uniquepid_009-10063,0.0
+cat__uniquepid_009-10069,0.0
+cat__uniquepid_009-10082,0.0
+cat__uniquepid_009-10083,0.0
+cat__uniquepid_002-11790,0.0
+cat__uniquepid_002-11793,0.0
+cat__uniquepid_002-11807,0.0
+cat__uniquepid_002-11808,0.0
+cat__uniquepid_002-11820,0.0
+cat__uniquepid_002-11821,0.0
+cat__uniquepid_002-11825,0.0
+cat__uniquepid_002-11837,0.0
+cat__uniquepid_002-11844,0.0
+cat__uniquepid_002-11845,0.0
+cat__uniquepid_002-11860,0.0
+cat__uniquepid_002-11865,0.0
+cat__uniquepid_002-1187,0.0
+cat__uniquepid_002-11871,0.0
+cat__uniquepid_009-10088,0.0
+cat__uniquepid_009-10093,0.0
+cat__uniquepid_009-1010,0.0
+cat__uniquepid_009-10107,0.0
+cat__uniquepid_009-1011,0.0
+cat__uniquepid_009-10121,0.0
+cat__uniquepid_009-10126,0.0
+cat__uniquepid_009-10136,0.0
+cat__uniquepid_009-10171,0.0
+cat__uniquepid_009-10173,0.0
+cat__uniquepid_009-10175,0.0
+cat__uniquepid_009-10176,0.0
+cat__uniquepid_009-10181,0.0
+cat__uniquepid_009-10183,0.0
+cat__uniquepid_009-10196,0.0
+cat__uniquepid_009-10197,0.0
+cat__uniquepid_009-10198,0.0
+cat__uniquepid_009-102,0.0
+cat__uniquepid_009-10206,0.0
+cat__uniquepid_009-10208,0.0
+cat__uniquepid_009-10222,0.0
+cat__uniquepid_009-10224,0.0
+cat__uniquepid_009-10228,0.0
+cat__uniquepid_002-13399,0.0
+cat__uniquepid_002-13415,0.0
+cat__uniquepid_002-13420,0.0
+cat__uniquepid_002-13422,0.0
+cat__uniquepid_002-13432,0.0
+cat__uniquepid_002-13436,0.0
+cat__uniquepid_002-13450,0.0
+cat__uniquepid_002-13454,0.0
+cat__uniquepid_002-13465,0.0
+cat__uniquepid_002-13470,0.0
+cat__uniquepid_002-13483,0.0
+cat__uniquepid_002-13497,0.0
+cat__uniquepid_002-13501,0.0
+cat__uniquepid_002-13504,0.0
+cat__uniquepid_002-13513,0.0
+cat__uniquepid_002-13523,0.0
+cat__uniquepid_009-10241,0.0
+cat__uniquepid_009-10249,0.0
+cat__uniquepid_009-1025,0.0
+cat__uniquepid_009-10251,0.0
+cat__uniquepid_009-10256,0.0
+cat__uniquepid_009-10270,0.0
+cat__uniquepid_009-10273,0.0
+cat__uniquepid_009-10275,0.0
+cat__uniquepid_009-10280,0.0
+cat__uniquepid_009-10291,0.0
+cat__uniquepid_009-10300,0.0
+cat__uniquepid_009-10310,0.0
+cat__uniquepid_009-10311,0.0
+cat__uniquepid_009-10318,0.0
+cat__uniquepid_009-10319,0.0
+cat__uniquepid_009-1032,0.0
+cat__uniquepid_009-10336,0.0
+cat__uniquepid_009-10341,0.0
+cat__uniquepid_009-10343,0.0
+cat__uniquepid_009-10353,0.0
+cat__uniquepid_009-1036,0.0
+cat__uniquepid_009-10364,0.0
+cat__uniquepid_009-10369,0.0
+cat__uniquepid_009-1037,0.0
+cat__uniquepid_009-10372,0.0
+cat__uniquepid_009-10376,0.0
+cat__uniquepid_009-10378,0.0
+cat__uniquepid_009-10383,0.0
+cat__uniquepid_009-10387,0.0
+cat__uniquepid_009-1039,0.0
+cat__uniquepid_009-10401,0.0
+cat__uniquepid_009-10422,0.0
+cat__uniquepid_009-10423,0.0
+cat__uniquepid_009-1043,0.0
+cat__uniquepid_009-10436,0.0
+cat__uniquepid_009-10437,0.0
+cat__uniquepid_009-1044,0.0
+cat__uniquepid_009-10459,0.0
+cat__uniquepid_009-10484,0.0
+cat__uniquepid_009-10487,0.0
+cat__uniquepid_009-10489,0.0
+cat__uniquepid_009-10502,0.0
+cat__uniquepid_009-10507,0.0
+cat__uniquepid_009-10514,0.0
+cat__uniquepid_009-10523,0.0
+cat__uniquepid_009-10535,0.0
+cat__uniquepid_009-10536,0.0
+cat__uniquepid_009-10537,0.0
+cat__uniquepid_009-10540,0.0
+cat__uniquepid_009-10554,0.0
+cat__uniquepid_009-10577,0.0
+cat__uniquepid_009-10585,0.0
+cat__uniquepid_009-10590,0.0
+cat__uniquepid_009-10630,0.0
+cat__uniquepid_009-10645,0.0
+cat__uniquepid_009-10658,0.0
+cat__uniquepid_009-10665,0.0
+cat__uniquepid_009-10678,0.0
+cat__uniquepid_009-1068,0.0
+cat__uniquepid_002-12412,0.0
+cat__uniquepid_009-10717,0.0
+cat__uniquepid_009-10726,0.0
+cat__uniquepid_009-10728,0.0
+cat__uniquepid_009-10737,0.0
+cat__uniquepid_009-1074,0.0
+cat__uniquepid_009-10757,0.0
+cat__uniquepid_009-10761,0.0
+cat__uniquepid_009-10776,0.0
+cat__uniquepid_009-10787,0.0
+cat__uniquepid_009-1079,0.0
+cat__uniquepid_009-10796,0.0
+cat__uniquepid_009-10805,0.0
+cat__uniquepid_009-10834,0.0
+cat__uniquepid_009-10835,0.0
+cat__uniquepid_009-10839,0.0
+cat__uniquepid_009-10843,0.0
+cat__uniquepid_009-10903,0.0
+cat__uniquepid_009-10905,0.0
+cat__uniquepid_009-10943,0.0
+cat__uniquepid_009-10949,0.0
+cat__uniquepid_009-10951,0.0
+cat__uniquepid_009-10998,0.0
+cat__uniquepid_009-1100,0.0
+cat__uniquepid_009-11007,0.0
+cat__uniquepid_009-11025,0.0
+cat__uniquepid_009-11059,0.0
+cat__uniquepid_009-11086,0.0
+cat__uniquepid_009-11105,0.0
+cat__uniquepid_009-11214,0.0
+cat__uniquepid_009-1122,0.0
+cat__uniquepid_009-11222,0.0
+cat__care_plan_following_discharge_Wound Care; Surgical Follow-up; Physical Therapy,0.0
+cat__uniquepid_009-11266,0.0
+cat__uniquepid_009-11287,0.0
+cat__uniquepid_009-11303,0.0
+cat__uniquepid_009-11318,0.0
+cat__uniquepid_009-11322,0.0
+cat__uniquepid_009-11328,0.0
+cat__uniquepid_009-11329,0.0
+cat__uniquepid_009-11340,0.0
+cat__uniquepid_009-11360,0.0
+cat__uniquepid_009-11369,0.0
+cat__uniquepid_009-1138,0.0
+cat__uniquepid_009-11398,0.0
+cat__uniquepid_009-11432,0.0
+cat__uniquepid_009-11468,0.0
+cat__uniquepid_002-14007,0.0
+cat__uniquepid_009-11528,0.0
+cat__uniquepid_009-11566,0.0
+cat__uniquepid_009-11589,0.0
+cat__uniquepid_009-11591,0.0
+cat__uniquepid_009-11613,0.0
+cat__uniquepid_009-11615,0.0
+cat__uniquepid_009-1165,0.0
+cat__uniquepid_009-11678,0.0
+cat__uniquepid_009-1168,0.0
+cat__uniquepid_009-11681,0.0
+cat__uniquepid_009-11683,0.0
+cat__uniquepid_009-11710,0.0
+cat__uniquepid_009-1177,0.0
+cat__uniquepid_009-11793,0.0
+cat__uniquepid_009-11874,0.0
+cat__uniquepid_009-11888,0.0
+cat__uniquepid_009-11912,0.0
+cat__uniquepid_009-11946,0.0
+cat__uniquepid_009-11947,0.0
+cat__uniquepid_009-11951,0.0
+cat__uniquepid_009-11958,0.0
+cat__uniquepid_009-11980,0.0
+cat__uniquepid_009-12009,0.0
+cat__uniquepid_009-12052,0.0
+cat__uniquepid_009-12053,0.0
+cat__uniquepid_009-12057,0.0
+cat__uniquepid_009-1208,0.0
+cat__uniquepid_009-12118,0.0
+cat__uniquepid_009-12121,0.0
+cat__uniquepid_009-12147,0.0
+cat__uniquepid_009-12183,0.0
+cat__uniquepid_009-12185,0.0
+cat__uniquepid_009-12244,0.0
+cat__uniquepid_009-12289,0.0
+cat__uniquepid_009-12474,0.0
+cat__uniquepid_010-10025,0.0
+cat__uniquepid_010-10061,0.0
+cat__uniquepid_010-10087,0.0
+cat__uniquepid_010-10093,0.0
+cat__uniquepid_010-10095,0.0
+cat__uniquepid_010-10099,0.0
+cat__uniquepid_010-10103,0.0
+cat__uniquepid_010-10116,0.0
+cat__uniquepid_010-10121,0.0
+cat__uniquepid_010-10171,0.0
+cat__uniquepid_010-1018,0.0
+cat__uniquepid_010-10204,0.0
+cat__uniquepid_010-10219,0.0
+cat__uniquepid_010-10245,0.0
+cat__uniquepid_010-1027,0.0
+cat__uniquepid_010-10278,0.0
+cat__uniquepid_010-10327,0.0
+cat__uniquepid_010-10351,0.0
+cat__uniquepid_010-1039,0.0
+cat__uniquepid_002-13270,0.0
+cat__uniquepid_002-13278,0.0
+cat__uniquepid_002-13282,0.0
+cat__uniquepid_002-1329,0.0
+cat__uniquepid_002-13294,0.0
+cat__uniquepid_002-13301,0.0
+cat__uniquepid_002-13307,0.0
+cat__uniquepid_002-13312,0.0
+cat__uniquepid_002-13313,0.0
+cat__uniquepid_002-13330,0.0
+cat__uniquepid_002-1334,0.0
+cat__uniquepid_002-13367,0.0
+cat__uniquepid_002-13368,0.0
+cat__uniquepid_002-14026,0.0
+cat__uniquepid_002-13383,0.0
+cat__uniquepid_002-13384,0.0
+cat__uniquepid_010-10410,0.0
+cat__uniquepid_010-10415,0.0
+cat__uniquepid_010-10439,0.0
+cat__uniquepid_010-10461,0.0
+cat__uniquepid_010-105,0.0
+cat__uniquepid_010-10506,0.0
+cat__uniquepid_010-1052,0.0
+cat__uniquepid_010-10570,0.0
+cat__uniquepid_010-10578,0.0
+cat__uniquepid_010-10636,0.0
+cat__uniquepid_010-10638,0.0
+cat__uniquepid_010-107,0.0
+cat__uniquepid_002-11699,0.0
+cat__uniquepid_002-11713,0.0
+cat__uniquepid_002-11714,0.0
+cat__uniquepid_002-11719,0.0
+cat__uniquepid_002-11722,0.0
+cat__uniquepid_002-11726,0.0
+cat__uniquepid_002-11735,0.0
+cat__uniquepid_002-11740,0.0
+cat__uniquepid_002-11741,0.0
+cat__uniquepid_002-11744,0.0
+cat__uniquepid_002-11761,0.0
+cat__uniquepid_002-11769,0.0
+cat__uniquepid_002-11774,0.0
+cat__uniquepid_002-11781,0.0
+cat__uniquepid_002-11786,0.0
+cat__uniquepid_002-11565,0.0
+cat__uniquepid_002-11571,0.0
+cat__uniquepid_002-11572,0.0
+cat__uniquepid_002-11576,0.0
+cat__uniquepid_002-11589,0.0
+cat__uniquepid_002-11590,0.0
+cat__uniquepid_002-11594,0.0
+cat__uniquepid_002-11597,0.0
+cat__uniquepid_002-11623,0.0
+cat__uniquepid_002-11631,0.0
+cat__uniquepid_002-11638,0.0
+cat__uniquepid_002-11645,0.0
+cat__uniquepid_002-11652,0.0
+cat__uniquepid_002-11657,0.0
+cat__uniquepid_002-11674,0.0
+cat__uniquepid_002-11690,0.0
+cat__uniquepid_002-11437,0.0
+cat__uniquepid_002-11441,0.0
+cat__uniquepid_002-1145,0.0
+cat__uniquepid_002-11451,0.0
+cat__uniquepid_002-11478,0.0
+cat__uniquepid_002-11487,0.0
+cat__uniquepid_002-1149,0.0
+cat__uniquepid_002-11495,0.0
+cat__uniquepid_002-11496,0.0
+cat__uniquepid_002-11510,0.0
+cat__uniquepid_002-11513,0.0
+cat__uniquepid_002-11515,0.0
+cat__uniquepid_002-11518,0.0
+cat__uniquepid_002-11542,0.0
+cat__uniquepid_002-11557,0.0
+"cat__Condition_Arrest, respiratory (without cardiac arrest)",0.0
+cat__uniquepid_002-11299,0.0
+cat__uniquepid_002-1130,0.0
+cat__uniquepid_002-11319,0.0
+cat__uniquepid_002-11326,0.0
+cat__uniquepid_002-1133,0.0
+cat__uniquepid_002-11339,0.0
+cat__uniquepid_002-13116,0.0
+cat__uniquepid_002-13121,0.0
+cat__uniquepid_002-13132,0.0
+cat__uniquepid_002-13141,0.0
+cat__uniquepid_002-13144,0.0
+cat__uniquepid_002-13148,0.0
+cat__uniquepid_002-13166,0.0
+cat__uniquepid_002-13180,0.0
+cat__uniquepid_002-13185,0.0
+cat__uniquepid_002-13188,0.0
+cat__uniquepid_002-13213,0.0
+cat__uniquepid_002-1323,0.0
+cat__uniquepid_002-13232,0.0
+cat__uniquepid_002-13236,0.0
+cat__uniquepid_002-11357,0.0
+cat__uniquepid_002-11368,0.0
+cat__uniquepid_002-11392,0.0
+cat__uniquepid_002-11410,0.0
+cat__uniquepid_002-11416,0.0
+cat__uniquepid_002-11425,0.0
+cat__uniquepid_002-11426,0.0
+cat__uniquepid_002-1143,0.0
+cat__uniquepid_002-11431,0.0
+cat__Condition_CABG with other operation,0.0
+"cat__Condition_CABG, minimally invasive; mid-CABG",0.0
+cat__uniquepid_002-14050,0.0
+cat__uniquepid_002-11165,0.0
+cat__uniquepid_002-11170,0.0
+cat__uniquepid_002-11175,0.0
+cat__uniquepid_002-11184,0.0
+cat__uniquepid_002-11227,0.0
+cat__uniquepid_002-11230,0.0
+cat__uniquepid_002-11248,0.0
+cat__uniquepid_002-11249,0.0
+cat__uniquepid_002-1125,0.0
+cat__uniquepid_002-11251,0.0
+cat__uniquepid_002-11264,0.0
+cat__uniquepid_002-11271,0.0
+cat__uniquepid_002-11275,0.0
+cat__uniquepid_002-11280,0.0
+cat__uniquepid_002-11291,0.0
+"cat__Condition_Chest pain, unknown origin",0.0
+"cat__Condition_Complications of previous GI surgery; surgery for (anastomotic leak, bleeding, abscess, infection, dehiscence, etc.)",0.0
+cat__Condition_Cranioplasty and complications from previous craniotomies,0.0
+cat__Condition_Diverticular disease,0.0
+"cat__Condition_Diverticular disease, surgery for",0.0
+cat__uniquepid_002-11051,0.0
+cat__uniquepid_002-11053,0.0
+cat__uniquepid_002-11072,0.0
+cat__uniquepid_002-11073,0.0
+cat__uniquepid_002-12945,0.0
+cat__uniquepid_002-12968,0.0
+cat__uniquepid_002-12972,0.0
+cat__uniquepid_002-13052,0.0
+cat__uniquepid_002-13057,0.0
+cat__uniquepid_002-13065,0.0
+cat__uniquepid_002-13074,0.0
+cat__uniquepid_002-13075,0.0
+cat__uniquepid_002-13087,0.0
+cat__uniquepid_002-13089,0.0
+cat__uniquepid_002-13106,0.0
+cat__uniquepid_002-13108,0.0
+cat__uniquepid_002-13109,0.0
+cat__uniquepid_002-13115,0.0
+cat__uniquepid_002-11074,0.0
+cat__uniquepid_002-11082,0.0
+cat__uniquepid_002-11087,0.0
+cat__uniquepid_002-11093,0.0
+cat__uniquepid_002-11097,0.0
+cat__uniquepid_002-11099,0.0
+cat__uniquepid_002-1110,0.0
+cat__uniquepid_002-11112,0.0
+cat__uniquepid_002-11115,0.0
+cat__uniquepid_002-11118,0.0
+cat__uniquepid_002-11143,0.0
+cat__Condition_Encephalopathies (excluding hepatic),0.0
+"cat__Condition_Fracture-pathological, non-union, non-traumatic, for fractures due to trauma see Trauma",0.0
+cat__Condition_GI perforation/rupture,0.0
+cat__uniquepid_002-14055,0.0
+cat__uniquepid_002-10916,0.0
+cat__uniquepid_002-10924,0.0
+cat__uniquepid_002-10940,0.0
+cat__uniquepid_002-10943,0.0
+cat__uniquepid_002-10952,0.0
+cat__uniquepid_002-10961,0.0
+cat__uniquepid_002-10966,0.0
+cat__uniquepid_002-10986,0.0
+cat__uniquepid_002-14061,0.0
+cat__uniquepid_002-11015,0.0
+cat__uniquepid_002-11021,0.0
+cat__uniquepid_002-11033,0.0
+cat__uniquepid_002-11034,0.0
+cat__uniquepid_002-11042,0.0
+cat__uniquepid_002-11047,0.0
+"cat__Condition_Hematologic medical, other",0.0
+cat__Condition_Hemorrhage (for gastrointestinal bleeding GI-see GI system) (for trauma see Trauma),0.0
+"cat__Condition_Hemorrhage, intra/retroperitoneal",0.0
+cat__Condition_Hypoglycemia,0.0
+cat__Condition_Hypothermia,0.0
+cat__Condition_Laminectomy/spinal cord decompression (excluding malignancies),0.0
+cat__Condition_Mastectomy (all),0.0
+cat__Condition_Mitral valve repair,0.0
+cat__Condition_Mitral valve replacement,0.0
+"cat__Condition_Musculoskeletal medical, other",0.0
+cat__uniquepid_002-10797,0.0
+cat__uniquepid_002-10802,0.0
+cat__uniquepid_002-10811,0.0
+cat__uniquepid_002-10812,0.0
+cat__uniquepid_002-1082,0.0
+cat__uniquepid_002-10820,0.0
+cat__uniquepid_002-10825,0.0
+cat__uniquepid_002-12836,0.0
+cat__uniquepid_002-12849,0.0
+cat__uniquepid_002-12851,0.0
+cat__uniquepid_002-12858,0.0
+cat__uniquepid_002-12863,0.0
+cat__uniquepid_002-12867,0.0
+cat__uniquepid_002-12883,0.0
+cat__uniquepid_002-12889,0.0
+cat__uniquepid_002-12907,0.0
+cat__uniquepid_002-12913,0.0
+cat__uniquepid_002-12917,0.0
+cat__uniquepid_002-1292,0.0
+cat__uniquepid_002-12920,0.0
+cat__uniquepid_002-12924,0.0
+cat__uniquepid_002-12943,0.0
+cat__uniquepid_002-12944,0.0
+cat__uniquepid_002-10828,0.0
+cat__uniquepid_002-10830,0.0
+cat__uniquepid_002-10832,0.0
+cat__uniquepid_002-10834,0.0
+cat__uniquepid_002-10846,0.0
+cat__uniquepid_002-10879,0.0
+cat__uniquepid_002-10891,0.0
+cat__uniquepid_002-10913,0.0
+cat__uniquepid_002-10914,0.0
+"cat__Condition_Neoplasm-cranial, surgery for (excluding transphenoidal)",0.0
+cat__uniquepid_002-14067,0.0
+cat__uniquepid_002-10732,0.0
+cat__uniquepid_002-10735,0.0
+cat__uniquepid_002-10739,0.0
+cat__uniquepid_002-10752,0.0
+cat__uniquepid_002-1408,0.0
+cat__uniquepid_002-10765,0.0
+cat__uniquepid_002-10767,0.0
+cat__uniquepid_002-10773,0.0
+cat__uniquepid_002-10774,0.0
+cat__uniquepid_002-10777,0.0
+cat__uniquepid_002-10780,0.0
+cat__uniquepid_002-10789,0.0
+cat__uniquepid_002-1079,0.0
+cat__uniquepid_002-10795,0.0
+cat__uniquepid_002-10796,0.0
+"cat__Condition_Pneumonia, aspiration",0.0
+cat__Condition_Renal obstruction,0.0
+cat__uniquepid_002-10670,0.0
+cat__uniquepid_002-10672,0.0
+cat__uniquepid_002-10678,0.0
+cat__uniquepid_002-10679,0.0
+cat__uniquepid_002-1068,0.0
+cat__uniquepid_002-10689,0.0
+cat__uniquepid_002-1069,0.0
+cat__uniquepid_002-10702,0.0
+cat__uniquepid_002-10706,0.0
+cat__uniquepid_002-10708,0.0
+cat__uniquepid_002-1071,0.0
+cat__uniquepid_002-10710,0.0
+cat__uniquepid_002-10711,0.0
+cat__uniquepid_002-10724,0.0
+"cat__Condition_Sepsis, pulmonary",0.0
+cat__Condition_Shunts and revisions,0.0
+cat__Condition_Thoracotomy for lung cancer,0.0
+"cat__Condition_Tumor removal, intracardiac",0.0
+"cat__Condition_Vascular surgery, other",0.0
+cat__Condition_Ventricular Septal Defect (VSD) Repair,0.0
+cat__uniquepid_002-10576,0.0
+cat__uniquepid_002-10580,0.0
+cat__uniquepid_002-10617,0.0
+cat__uniquepid_002-10618,0.0
+cat__uniquepid_002-10619,0.0
+cat__uniquepid_002-10626,0.0
+cat__uniquepid_002-10627,0.0
+cat__uniquepid_002-1063,0.0
+cat__uniquepid_002-10630,0.0
+cat__uniquepid_002-10638,0.0
+cat__uniquepid_002-10639,0.0
+cat__uniquepid_002-10648,0.0
+cat__uniquepid_002-10651,0.0
+cat__uniquepid_002-10662,0.0
+cat__care_plan_following_discharge_Addiction Counseling; Medication-Assisted Treatment,0.0
+cat__uniquepid_002-14080,0.0
+cat__care_plan_following_discharge_Addiction Counseling; Psychiatric Follow-up,0.0
+cat__care_plan_following_discharge_Addiction Counseling; Psychiatric Follow-up; Support Group,0.0
+cat__care_plan_following_discharge_Addiction Counseling; Support Group; Psychiatric Follow-up,0.0
+cat__care_plan_following_discharge_Chemotherapy Schedule; Nutrition Support; Palliative Care,0.0
+cat__care_plan_following_discharge_Chemotherapy Schedule; Oncology Follow-up,0.0
+cat__care_plan_following_discharge_Chemotherapy Schedule; Oncology Follow-up; Nutrition Support,0.0
+cat__care_plan_following_discharge_Chemotherapy Schedule; Palliative Care; Oncology Follow-up,0.0
+cat__care_plan_following_discharge_Diabetes Education,0.0
+cat__care_plan_following_discharge_Diabetes Education; Endocrinology Follow-up; Nutrition Counseling,0.0
+cat__care_plan_following_discharge_Diabetes Education; Home Glucose Monitoring; Endocrinology Follow-up,0.0
+cat__care_plan_following_discharge_Diabetes Education; Nutrition Counseling,0.0
+cat__care_plan_following_discharge_Diabetes Education; Nutrition Counseling; Home Glucose Monitoring,0.0
+cat__care_plan_following_discharge_Dialysis Schedule; Fluid Management,0.0
+cat__uniquepid_002-10541,0.0
+cat__uniquepid_002-10543,0.0
+cat__uniquepid_002-10544,0.0
+cat__uniquepid_002-10546,0.0
+cat__uniquepid_002-10553,0.0
+cat__uniquepid_002-12716,0.0
+cat__uniquepid_002-12730,0.0
+cat__uniquepid_002-12735,0.0
+cat__uniquepid_002-12750,0.0
+cat__uniquepid_002-12751,0.0
+cat__uniquepid_002-12757,0.0
+cat__uniquepid_002-12762,0.0
+cat__uniquepid_002-12769,0.0
+cat__uniquepid_002-1277,0.0
+cat__uniquepid_002-12771,0.0
+cat__uniquepid_002-12773,0.0
+cat__uniquepid_002-12796,0.0
+cat__uniquepid_002-12807,0.0
+cat__uniquepid_002-1282,0.0
+cat__uniquepid_002-12826,0.0
+cat__uniquepid_002-12827,0.0
+cat__uniquepid_002-14089,0.0
+cat__uniquepid_002-10562,0.0
+cat__uniquepid_002-10569,0.0
+cat__uniquepid_002-10572,0.0
+cat__uniquepid_002-10574,0.0
+cat__uniquepid_002-10575,0.0
+cat__care_plan_following_discharge_Dietary Modification,0.0
+cat__care_plan_following_discharge_Dietary Modification; Surgical Follow-up; Pain Management,0.0
+cat__care_plan_following_discharge_Dietary Modification; Surgical Follow-up; Wound Care,0.0
+cat__care_plan_following_discharge_Dietary Modification; Wound Care; Surgical Follow-up,0.0
+cat__care_plan_following_discharge_Dietary Restriction; Dialysis Schedule; Nephrology Follow-up,0.0
+cat__care_plan_following_discharge_Dietary Restriction; Nephrology Follow-up,0.0
+cat__care_plan_following_discharge_Endocrinology Follow-up; Diabetes Education,0.0
+cat__care_plan_following_discharge_Endocrinology Follow-up; Nutrition Counseling; Diabetes Education,0.0
+cat__care_plan_following_discharge_Endocrinology Follow-up; Nutrition Counseling; Home Glucose Monitoring,0.0
+cat__care_plan_following_discharge_Fluid Management,0.0
+cat__care_plan_following_discharge_Fluid Management; Nephrology Follow-up; Dialysis Schedule,0.0
+cat__care_plan_following_discharge_Fluid Management; Nephrology Follow-up; Dietary Restriction,0.0
+cat__uniquepid_002-10480,0.0
+cat__uniquepid_002-10482,0.0
+cat__uniquepid_002-10483,0.0
+cat__uniquepid_002-10492,0.0
+cat__uniquepid_002-10496,0.0
+cat__uniquepid_002-10497,0.0
+cat__uniquepid_002-10500,0.0
+cat__uniquepid_002-10506,0.0
+cat__uniquepid_002-10507,0.0
+cat__uniquepid_002-10516,0.0
+cat__uniquepid_002-10521,0.0
+cat__uniquepid_002-10525,0.0
+cat__uniquepid_002-10526,0.0
+cat__uniquepid_002-10531,0.0
+cat__uniquepid_002-10534,0.0
+cat__uniquepid_002-14093,0.0
+cat__uniquepid_002-12613,0.0
+cat__uniquepid_002-12617,0.0
+cat__uniquepid_002-12620,0.0
+cat__uniquepid_002-12640,0.0
+cat__uniquepid_002-12654,0.0
+cat__uniquepid_002-12658,0.0
+cat__uniquepid_002-12662,0.0
+cat__uniquepid_002-14110,0.0
+cat__uniquepid_002-12676,0.0
+cat__uniquepid_002-1268,0.0
+cat__uniquepid_002-12688,0.0
+cat__uniquepid_002-12692,0.0
+cat__uniquepid_002-12695,0.0
+cat__uniquepid_002-12707,0.0
+cat__care_plan_following_discharge_Home Glucose Monitoring,0.0
+cat__care_plan_following_discharge_Home Glucose Monitoring; Endocrinology Follow-up,0.0
+cat__care_plan_following_discharge_Home Glucose Monitoring; Nutrition Counseling,0.0
+cat__uniquepid_002-14112,0.0
+cat__care_plan_following_discharge_Home Health; Follow-up Infectious Disease; Wound Care,0.0
+cat__uniquepid_002-14125,0.0
+cat__uniquepid_002-10378,0.0
+cat__uniquepid_002-10393,0.0
+cat__uniquepid_002-10398,0.0
+cat__uniquepid_002-10409,0.0
+cat__uniquepid_002-10411,0.0
+cat__uniquepid_002-10425,0.0
+cat__uniquepid_002-10429,0.0
+cat__uniquepid_002-10438,0.0
+cat__uniquepid_002-10439,0.0
+cat__uniquepid_002-10442,0.0
+cat__uniquepid_002-10445,0.0
+cat__uniquepid_002-10452,0.0
+cat__uniquepid_002-10458,0.0
+cat__uniquepid_002-10459,0.0
+cat__uniquepid_002-10469,0.0
+cat__care_plan_following_discharge_Home Health; Wound Care,0.0
+cat__care_plan_following_discharge_Home Health; Wound Care; IV Antibiotics Completion,0.0
+cat__uniquepid_002-10317,0.0
+cat__uniquepid_002-10318,0.0
+cat__uniquepid_002-10328,0.0
+cat__uniquepid_002-1033,0.0
+cat__uniquepid_002-10334,0.0
+cat__uniquepid_002-10338,0.0
+cat__uniquepid_002-10344,0.0
+cat__uniquepid_002-10346,0.0
+cat__uniquepid_002-10347,0.0
+cat__uniquepid_002-1035,0.0
+cat__uniquepid_002-10351,0.0
+cat__uniquepid_002-10353,0.0
+cat__uniquepid_002-10358,0.0
+cat__uniquepid_002-10359,0.0
+cat__uniquepid_002-1036,0.0
+cat__care_plan_following_discharge_IV Antibiotics Completion; Follow-up Infectious Disease; Wound Care,0.0
+cat__care_plan_following_discharge_IV Antibiotics Completion; Wound Care; Home Health,0.0
+cat__uniquepid_002-10193,0.0
+cat__uniquepid_002-10200,0.0
+cat__uniquepid_002-10201,0.0
+cat__uniquepid_002-10203,0.0
+cat__uniquepid_002-10216,0.0
+cat__uniquepid_002-10220,0.0
+cat__uniquepid_002-10245,0.0
+cat__uniquepid_002-10247,0.0
+cat__uniquepid_002-10257,0.0
+cat__uniquepid_002-10263,0.0
+cat__uniquepid_002-10291,0.0
+cat__uniquepid_002-10299,0.0
+cat__care_plan_following_discharge_Medication-Assisted Treatment; Addiction Counseling; Support Group,0.0
+cat__care_plan_following_discharge_Medication-Assisted Treatment; Psychiatric Follow-up,0.0
+cat__care_plan_following_discharge_Medication-Assisted Treatment; Psychiatric Follow-up; Addiction Counseling,0.0
+cat__care_plan_following_discharge_Medication-Assisted Treatment; Support Group,0.0
+cat__care_plan_following_discharge_Nephrology Follow-up; Dialysis Schedule; Fluid Management,0.0
+cat__care_plan_following_discharge_Nephrology Follow-up; Dietary Restriction,0.0
+cat__care_plan_following_discharge_Nephrology Follow-up; Fluid Management,0.0
+cat__care_plan_following_discharge_Nutrition Counseling; Diabetes Education,0.0
+cat__care_plan_following_discharge_Nutrition Counseling; Endocrinology Follow-up,0.0
+cat__care_plan_following_discharge_Nutrition Counseling; Endocrinology Follow-up; Home Glucose Monitoring,0.0
+cat__care_plan_following_discharge_Nutrition Support; Chemotherapy Schedule,0.0
+cat__care_plan_following_discharge_Nutrition Support; Oncology Follow-up; Palliative Care,0.0
+cat__uniquepid_002-10093,0.0
+cat__uniquepid_002-1012,0.0
+cat__uniquepid_002-10126,0.0
+cat__uniquepid_002-10129,0.0
+cat__uniquepid_002-10147,0.0
+cat__uniquepid_002-1015,0.0
+cat__uniquepid_002-10160,0.0
+cat__uniquepid_002-10166,0.0
+cat__uniquepid_002-1017,0.0
+cat__uniquepid_002-10181,0.0
+cat__uniquepid_002-10182,0.0
+cat__uniquepid_002-10184,0.0
+cat__care_plan_following_discharge_Nutrition Support; Palliative Care,0.0
+cat__uniquepid_002-12424,0.0
+cat__uniquepid_002-12437,0.0
+cat__uniquepid_002-12454,0.0
+cat__uniquepid_002-12476,0.0
+cat__uniquepid_002-12477,0.0
+cat__uniquepid_002-12487,0.0
+cat__uniquepid_002-12495,0.0
+cat__uniquepid_002-12516,0.0
+cat__uniquepid_002-12524,0.0
+cat__uniquepid_002-12531,0.0
+cat__uniquepid_002-12547,0.0
+cat__uniquepid_002-12548,0.0
+cat__uniquepid_002-1416,0.0
+cat__uniquepid_002-12568,0.0
+cat__uniquepid_002-1257,0.0
+cat__uniquepid_002-12578,0.0
+cat__care_plan_following_discharge_Occupational Therapy; Speech Therapy; Follow-up Neurology,0.0
+cat__care_plan_following_discharge_Oncology Follow-up; Palliative Care,0.0
+cat__care_plan_following_discharge_Pain Management; Surgical Follow-up; Wound Care,0.0
+cat__care_plan_following_discharge_Palliative Care,0.0
+cat__care_plan_following_discharge_Physical Therapy; Occupational Therapy,0.0
+cat__care_plan_following_discharge_Physical Therapy; Occupational Therapy; Follow-up Neurology,0.0
+cat__care_plan_following_discharge_Physical Therapy; Surgical Follow-up; Pain Management,0.0
+cat__care_plan_following_discharge_Physical Therapy; Wound Care; Pain Management,0.0
+cat__care_plan_following_discharge_Physical Therapy; Wound Care; Surgical Follow-up,0.0
+cat__care_plan_following_discharge_Psychiatric Follow-up; Addiction Counseling; Medication-Assisted Treatment,0.0
+cat__care_plan_following_discharge_Psychiatric Follow-up; Medication-Assisted Treatment,0.0
+cat__uniquepid_002-14172,0.0
+cat__care_plan_following_discharge_Pulmonary Rehab; Smoking Cessation; Home O2 Therapy,0.0
+cat__uniquepid_002-10001,0.0
+cat__uniquepid_002-10007,0.0
+cat__uniquepid_002-12413,0.0
+cat__uniquepid_002-12275,0.0
+cat__uniquepid_002-12277,0.0
+cat__uniquepid_002-12293,0.0
+cat__uniquepid_002-12312,0.0
+cat__uniquepid_002-14173,0.0
+cat__care_plan_following_discharge_Speech Therapy; Physical Therapy; Occupational Therapy,0.0
+cat__care_plan_following_discharge_Wound Care; IV Antibiotics Completion; Follow-up Infectious Disease,0.0
+cat__care_plan_following_discharge_Wound Care; IV Antibiotics Completion; Home Health,0.0
+cat__care_plan_following_discharge_Wound Care; Pain Management; Dietary Modification,0.0
+cat__care_plan_following_discharge_Wound Care; Pain Management; Physical Therapy,0.0
+cat__care_plan_following_discharge_Wound Care; Pain Management; Surgical Follow-up,0.0
+cat__care_plan_following_discharge_Wound Care; Physical Therapy,0.0
+cat__care_plan_following_discharge_Wound Care; Physical Therapy; Pain Management,0.0
+cat__care_plan_following_discharge_Wound Care; Surgical Follow-up,0.0
+cat__care_plan_following_discharge_Smoking Cessation; Pulmonary Rehab,0.0
+cat__uniquepid_002-12237,0.0
+cat__uniquepid_002-10011,0.0
+cat__uniquepid_002-12332,0.0
+cat__uniquepid_002-12341,0.0
+cat__uniquepid_002-12343,0.0
+cat__uniquepid_002-12345,0.0
+cat__uniquepid_002-12347,0.0
+cat__uniquepid_002-12358,0.0
+cat__uniquepid_002-1238,0.0
+cat__uniquepid_002-12380,0.0
+cat__uniquepid_002-12382,0.0
+cat__uniquepid_002-12384,0.0
+cat__uniquepid_002-12391,0.0
+cat__uniquepid_002-12242,0.0
+cat__uniquepid_002-12405,0.0
+cat__care_plan_following_discharge_Support Group; Medication-Assisted Treatment; Psychiatric Follow-up,0.0

@@ -1,0 +1,132 @@
+services:
+  airflow-db:
+    image: postgres:15
+    container_name: airflow-db
+    environment:
+      POSTGRES_USER: airflow
+      POSTGRES_PASSWORD: airflow
+      POSTGRES_DB: airflow
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U airflow -d airflow"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    ports:
+      - "5432:5432"
+    volumes:
+      - airflow_postgres_data:/var/lib/postgresql/data
+
+  airflow-init:
+    build:
+      context: .
+      dockerfile: airflow/Dockerfile
+    container_name: airflow-init
+    depends_on:
+      airflow-db:
+        condition: service_healthy
+    env_file:
+      - .env
+    environment:
+      AIRFLOW__CORE__EXECUTOR: LocalExecutor
+      AIRFLOW__DATABASE__SQL_ALCHEMY_CONN: postgresql+psycopg2://airflow:airflow@airflow-db/airflow
+      AIRFLOW__CORE__FERNET_KEY: ""
+      AIRFLOW__CORE__LOAD_EXAMPLES: "False"
+      AIRFLOW__CORE__DAGS_FOLDER: /opt/airflow/dags
+      AIRFLOW_UID: "50000"
+      PROJECT_ROOT: /opt/airflow/project
+      PYTHONPATH: /opt/airflow/project/src
+      GOLD_DB_USER: airflow
+      GOLD_DB_PASSWORD: airflow
+      GOLD_DB_HOST: airflow-db
+      GOLD_DB_PORT: "5432"
+      GOLD_DB_NAME: airflow
+    volumes:
+      - ./airflow/dags:/opt/airflow/dags
+      - ./airflow/logs:/opt/airflow/logs
+      - ./airflow/plugins:/opt/airflow/plugins
+      - ./:/opt/airflow/project
+    command: >
+      bash -c "
+      airflow db migrate &&
+      airflow users create
+        --username admin
+        --firstname Admin
+        --lastname User
+        --role Admin
+        --email admin@example.com
+        --password admin || true
+      "
+
+  airflow-webserver:
+    build:
+      context: .
+      dockerfile: airflow/Dockerfile
+    container_name: airflow-webserver
+    restart: unless-stopped
+    depends_on:
+      airflow-db:
+        condition: service_healthy
+      airflow-init:
+        condition: service_completed_successfully
+    env_file:
+      - .env
+    environment:
+      AIRFLOW__CORE__EXECUTOR: LocalExecutor
+      AIRFLOW__DATABASE__SQL_ALCHEMY_CONN: postgresql+psycopg2://airflow:airflow@airflow-db/airflow
+      AIRFLOW__CORE__FERNET_KEY: ""
+      AIRFLOW__CORE__LOAD_EXAMPLES: "False"
+      AIRFLOW__WEBSERVER__EXPOSE_CONFIG: "True"
+      AIRFLOW__CORE__DAGS_FOLDER: /opt/airflow/dags
+      AIRFLOW_UID: "50000"
+      PROJECT_ROOT: /opt/airflow/project
+      PYTHONPATH: /opt/airflow/project/src
+      GOLD_DB_USER: airflow
+      GOLD_DB_PASSWORD: airflow
+      GOLD_DB_HOST: airflow-db
+      GOLD_DB_PORT: "5432"
+      GOLD_DB_NAME: airflow
+    ports:
+      - "8080:8080"
+    volumes:
+      - ./airflow/dags:/opt/airflow/dags
+      - ./airflow/logs:/opt/airflow/logs
+      - ./airflow/plugins:/opt/airflow/plugins
+      - ./:/opt/airflow/project
+    command: webserver
+
+  airflow-scheduler:
+    build:
+      context: .
+      dockerfile: airflow/Dockerfile
+    container_name: airflow-scheduler
+    restart: unless-stopped
+    depends_on:
+      airflow-db:
+        condition: service_healthy
+      airflow-init:
+        condition: service_completed_successfully
+    env_file:
+      - .env
+    environment:
+      AIRFLOW__CORE__EXECUTOR: LocalExecutor
+      AIRFLOW__DATABASE__SQL_ALCHEMY_CONN: postgresql+psycopg2://airflow:airflow@airflow-db/airflow
+      AIRFLOW__CORE__FERNET_KEY: ""
+      AIRFLOW__CORE__LOAD_EXAMPLES: "False"
+      AIRFLOW__CORE__DAGS_FOLDER: /opt/airflow/dags
+      AIRFLOW_UID: "50000"
+      PROJECT_ROOT: /opt/airflow/project
+      PYTHONPATH: /opt/airflow/project/src
+      GOLD_DB_USER: airflow
+      GOLD_DB_PASSWORD: airflow
+      GOLD_DB_HOST: airflow-db
+      GOLD_DB_PORT: "5432"
+      GOLD_DB_NAME: airflow
+    volumes:
+      - ./airflow/dags:/opt/airflow/dags
+      - ./airflow/logs:/opt/airflow/logs
+      - ./airflow/plugins:/opt/airflow/plugins
+      - ./:/opt/airflow/project
+    command: scheduler
+
+volumes:
+  airflow_postgres_data:

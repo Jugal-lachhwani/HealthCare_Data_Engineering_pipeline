@@ -1,0 +1,21 @@
+{
+  "source_root": "Data/bronze/airbyte_raw/ehr_visits",
+  "destination_root": "Data/silver/ehr_visits",
+  "quality_report_path": "Data/silver/_quality/ehr_visits_quality_report.json",
+  "state_path": "Data/silver/_state/bronze_to_silver_state.json",
+  "required_columns": [
+    "patientunitstayid",
+    "patienthealthsystemstayid",
+    "gender",
+    "age",
+    "hospitalid",
+    "wardid",
+    "uniquepid",
+    "LACE_Score",
+    "los",
+    "Condition",
+    "readmitted",
+    "readmitted_under_30_days",
+    "days_until_readmission"
+  ]
+}

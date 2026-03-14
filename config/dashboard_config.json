@@ -1,0 +1,10 @@
+{
+  "silver_root": "Data/silver/ehr_visits",
+  "quality_report_path": "Data/silver/_quality/ehr_visits_quality_report.json",
+  "final_model_dataset_csv_path": "Data/final/readmission_model_dataset.csv",
+  "final_reason_summary_csv_path": "Data/final/readmission_reason_summary.csv",
+  "final_driver_summary_csv_path": "Data/final/readmission_driver_summary.csv",
+  "doctor_mart_path": "Data/gold/marts/doctor_patient_risk_mart.parquet",
+  "admin_mart_path": "Data/gold/marts/admin_hospital_kpi_mart.parquet",
+  "department_mart_path": "Data/gold/marts/admin_department_kpi_mart.parquet"
+}
