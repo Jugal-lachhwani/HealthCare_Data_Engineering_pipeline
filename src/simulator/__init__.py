@@ -1,0 +1,1 @@
+"""Synthetic EHR simulator package."""

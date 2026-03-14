@@ -1,0 +1,27 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "SyntheticEhrVisitEvent",
+  "type": "object",
+  "required": [
+    "event_id",
+    "event_type",
+    "event_time_utc",
+    "source",
+    "hospital_id",
+    "patient",
+    "encounter",
+    "clinical",
+    "labels"
+  ],
+  "properties": {
+    "event_id": { "type": "string" },
+    "event_type": { "type": "string" },
+    "event_time_utc": { "type": "string" },
+    "source": { "type": "string" },
+    "hospital_id": { "type": "string" },
+    "patient": { "type": "object" },
+    "encounter": { "type": "object" },
+    "clinical": { "type": "object" },
+    "labels": { "type": "object" }
+  }
+}
